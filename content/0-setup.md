@@ -5,10 +5,9 @@ nav: true
 # Setup
 
 -----
-
-## Download & install software
-
-Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/0-setup.html) setup details for instructions on downloading and installing the software. 
+{% capture text %}
+Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/0-setup.html) for instructions on downloading and installing the software.{% endcapture %}
+{% include card.md header="Download & install software" text=text %}
 
 -----
 
