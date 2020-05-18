@@ -50,17 +50,14 @@ It is important when amending or enhancing data to retain values until you are s
 Let’s concatenate the values from `Crash_Street_Suburb`  and `Suburb columns`
 
 - At the GREL expression input box type the command:  `value + ', ' + cells['Suburb'].value` 
-
-`value`  indicates the values in the current column.
-
-`cells[‘Suburb’].value`  indicates to add cell values from the ‘named’ column you would like to combine with.
-
-` + ‘, ’  + ` adds an additional string in the results, in this case a common separator with white space `, `
-
-Note: we can use either  `“`  or  `‘` in a GREL expression to wrap around a string of text.
-
+  - `value`  indicates the values in the current column.
+  - `cells[‘Suburb’].value`  indicates to add cell values from the ‘named’ column you would like to combine with.
+  - ` + ‘, ’  + ` adds an additional string in the results, in this case a common separator with white space `, `
+  - Note: we can use either  `“`  or  `‘` in a GREL expression to wrap around a string of text.
 - Preview and OK.{% endcapture %} 
 {% include card.md header="Add a new column with values from two columns " text=text %}
+
+{% include figure.html img="AdvGREL.jpg" alt="Advanced GREL" caption="Advanced GREL" width="100%" %}
 
 {% include button.md text="watch this video to work through the activities" link="    " color="info" %}
 
