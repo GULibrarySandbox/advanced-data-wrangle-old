@@ -54,5 +54,6 @@ Now let's remove all years apart from `2018`
   - `Include` all years apart from 2018 (4164 matching rows)
   - Go to `All column > Edit rows > remove all matching rows` (1068 rows remaining)
 - Close facet
-- the dataset now has a sample of 1068 locations all within the Southern local police region.{% endcapture %}
+
+The dataset now has a sample of 1068 locations all within the Southern local police region.{% endcapture %}
 {% include card.md header="Limit the dataset" text=text %}
