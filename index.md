@@ -9,7 +9,12 @@ layout: default
 
 This online self-paced workshop teaches advanced data wrangling skills including combining datasets, geolocating data, and “what if” exploration using OpenRefine. 
 
-Working with data previously cleaned in [Introduction to Data wrangling with OpenRefine workshop](https://griffithunilibrary.github.io/intro-data-wrangle/), learn to extend data with additional variables from other data, visualise geographic locations using Geo.json, make an interactive map and create a webpage to display the map and data using Github.
+Working with data previously cleaned in [Introduction to Data wrangling with OpenRefine workshop](https://griffithunilibrary.github.io/intro-data-wrangle/), learn to:
+
+- extend data with additional variables from other data, 
+- visualise geographic locations using Geo.json
+- make an interactive map 
+- create a webpage to display the geographically visualised data using Github.
 
 Download the software and dataset, do activities and watch videos to guide you through the lessons. The workshop takes around 2 hours to complete.
 
