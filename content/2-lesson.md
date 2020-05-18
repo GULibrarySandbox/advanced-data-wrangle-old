@@ -53,4 +53,5 @@ Step 2.
   - `Include` all years apart from 2018 (4164 matching rows)
   - Go to `All column > Edit rows > remove all matching rows` (1068 rows remaining)
 - Close facet
-- the dataset is reduce to a sample of 1068 locations.
+- the dataset is reduce to a sample of 1068 locations.{% endcapture %}
+{% include card.md header="Limit the dataset" text=text %}
