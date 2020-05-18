@@ -3,7 +3,7 @@ title: Create
 nav: true
 ---
 
-# Obtain a sample of data to enhance
+# Extract a sample of data to enhance
 ----
 
 {% capture text %}
@@ -36,4 +36,21 @@ If OpenRefine does not automatically open within your browser after launch, poin
 - Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
 - Give the project a meaningful name such as `TrafficAccident_2018`
 - If all looks fine, click `Create Project`.{% endcapture %}
-{% include card.md header="Preview data" text=text %}
+{% include card.md header="Preview the data" text=text %}
+
+We only want to work with traffic accident data from `2018` in the `Southern` `Local police region`, lets remove the others.
+
+{% capture text %}
+Step 1.
+- Go to `Loc_Police_Region > Facet > Text facet` 
+- Remove four choices leaving `Southern`  only (how do we do this?)
+  - `Include`  the four locations
+  - `All column > Edit rows > remove all matching rows` (5232 rows remaining)
+- Close facet
+Step 2.
+- Remove all years apart from `2018` (how do we do this?)
+  - Go to `Crash_Year > Facet > Text facet`
+  - `Include` all years apart from 2018 (4164 matching rows)
+  - Go to `All column > Edit rows > remove all matching rows` (1068 rows remaining)
+- Close facet
+- the dataset is reduce to a sample of 1068 locations.
