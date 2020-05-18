@@ -3,7 +3,7 @@ title: Create
 nav: true
 ---
 
-# Create project
+# Create the project
 ----
 
 {% capture text %}
