@@ -2,7 +2,7 @@
 title: Find
 nav: true
 ---
-# Find a key variable to enhance the data
+# Find a key variable
 
 --------
 
