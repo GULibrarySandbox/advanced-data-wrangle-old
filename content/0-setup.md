@@ -8,17 +8,15 @@ nav: true
 
 ## Download & install software
 
-Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/0-setup.html) setup details for instructions. 
+Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/0-setup.html) setup details for instructions on downloading and installing the software. 
 
 -----
 
 ## Download the data
 
-You will be using three datasets in this workshop, one which was cleaned in the Introduction to Data Wrangling with OpenRefine. It is data from Transport & Main Roads obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
+You will work with three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
 
-The original dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. 
-
-In addition to this you will be using the QLD Driver Reviver Stations open dataset and a QLD traffic camera locations open dataset, both from data.qld.gov.au.   
+The QLD Traffic Accident open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. The QLD Driver Reviver Stations open dataset provides address locations of places to stop and refresh when travelling on Queensland roads.  The QLD traffic camera locations open dataset is one of a number of open datasets that identify the general location of different types of traffic cameras across Queensland. 
 
 The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  Download each from the links below:
 
