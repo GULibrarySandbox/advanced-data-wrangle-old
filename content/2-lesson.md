@@ -29,17 +29,11 @@ If OpenRefine does not automatically open within your browser after launch, poin
 - Select `Choose Files` and browse to select the file `QLDTrafficAccidentCleanData_2014_2018.csv` you saved to your `Downloads` folder.
 - Either click `Open` or double-click on the filename to import it into OpenRefine.
 - Click `Next`.{% endcapture %}
-{% include card.md header="Create a project by uploading data from your computer" text=text %}
+{% include card.md header="Upload data from your computer" text=text %}
 
 
 {% capture text %}
 - Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
 - Give the project a meaningful name such as `TrafficAccident_2018`
 - If all looks fine, click `Create Project`.{% endcapture %}
-{% include card.md header="Data preview" text=text %}
-
-
-### Key Points
-
-- Use the `Create Project` option to import new data to work on.
-- You can control how data is imported by changing options on the import screen.
+{% include card.md header="Preview data" text=text %}
