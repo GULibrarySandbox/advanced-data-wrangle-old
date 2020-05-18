@@ -3,7 +3,7 @@ title: Create
 nav: true
 ---
 
-# Extract a sample of data to enhance
+# Create project
 ----
 
 {% capture text %}
