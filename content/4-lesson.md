@@ -21,35 +21,23 @@ Now we need to do the same process in  `QPSTrafficCamerasClean`  project data
 
 At present there are duplicates in the new  `Column Camera_Street_Suburb`,  probably due to Traffic Cameras being placed in multiple locations on long roads in the same suburb (or maybe other reasons, we don’t know of….) 
 
+We need to deduplicate this key variable in  `QPSTrafficCamerasClean`  so that it contains only unique values to match with the values in the `QLDTrafficAccident_2018` project.  As the researcher of this data you want to identify if there were traffic cameras anywhere on the length of the road in that suburb, so it doesn’t matter if there was more than one possible location.  
+
+To look at an example, let’s filter  `Camera_Street_Suburb`  by the term  `Anzac`.  Kippa-Ring has two cameras listed.
+
 {% include button.md text="Watch video" link="    " color="info" %}
 
-------
-
-### Sorting data
-
-Using `Crash_Street`, let's explore data using sorting.
-
 {% capture text %}
-- in  `Crash_Street`  column select drop-down menu and  `Sort`.   Options include:
-  - sort by text
-  - sort by numbers
-  - sort by dates
-  - sort by booleans (TRUE or FALSE values). 
-- select  `text`
-- additional options will then appear for you to fine-tune your sorting, select  `a-z`
-- you can also specify what order to put *blanks* and *errors* in the sorted results.
--  `Ok`
+- Go to  `Camera_Street_Suburb`  `>Facet>Customized facets>Duplicates facet`
+- Click on  `True`  in the facet to see all the duplicate values (how many?)
+- Go to `Camera_Street_Suburb`  `>Edit cells>Blank down`
+- Note that 69 rows have been blanked down
+  (`Blank down`  will detect if two rows following each other have the same content. If they do, the second row will be “blanked out” and the cell values removed.)
+-	Go to  `All` column  `>Edit rows>Remove all matching rows`
+- 2316 records are remaining and the  `Camera_street_Suburb`  column has unique values. 
+- `Filter`  by  `Anzac`  again to test the results.
 
-When performing the first sort, you will notice the drop-down menu for the selected column shows  `Sort ...` 
-
-If you try to re-sort a column that you have already used, the drop-down menu changes slightly, to  `> Sort`  without the  `...`, to remind you that you have already used this column. Additional options include:
-
-  - `Sort > Sort ...` - This option enables you to modify your original sort.
-  - `Sort > Reverse` - This option allows you to reverse the order of the sort.
-  - `Sort > Remove sort` - This option allows you to undo your sort.
-- remove this sort.{% endcapture %} {% include card.md header="Activity - sort by text" text=text %}
-
-
+This is one way to remove duplicates, see this advice from [Illinois University Library](https://guides.library.illinois.edu/openrefine/duplicates) for another.{% endcapture %} {% include card.md header="Remove duplicate rows" text=text %}
 
 {% capture text %}
 {% endcapture %} {% include card.md header="Activity - sort by multiple columns" text=text %}
