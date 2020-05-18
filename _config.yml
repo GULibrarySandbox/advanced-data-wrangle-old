@@ -12,13 +12,12 @@ title-icon:
 # description and keywords for meta tags
 description: "A workshop for learning some advanced data wrangling skills"
 keywords: "OpenRefine, data, data wrangling, data cleaning, workshop"
-featured-image: "/images/GC_Campus_LM-3181.jpg"
+featured-image: "/images/MapAus.JPG"
 
 # author settings for cc-by, appears in the footer
 author: Sharron Stapleton
 pub_year: 2020
 github_username: stapletonsl
-# Need to add acknowledgement to Evan Wills
 
 # add the full url for the github repository
 repo: "https://github.com/GriffithUniLibrary/intro-data-wrangle/"
