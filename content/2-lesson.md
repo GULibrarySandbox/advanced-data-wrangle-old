@@ -45,6 +45,3 @@ If OpenRefine does not automatically open within your browser after launch, poin
 
 - Use the `Create Project` option to import new data to work on.
 - You can control how data is imported by changing options on the import screen.
-
-
-{% include button.md text="Watch video" link="https://vimeo.com/412189056/0d9031def0" color="info" %}
