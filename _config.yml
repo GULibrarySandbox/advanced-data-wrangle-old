@@ -20,22 +20,22 @@ pub_year: 2020
 github_username: stapletonsl
 
 # add the full url for the github repository
-repo: "https://github.com/GriffithUniLibrary/intro-data-wrangle/"
+repo: "https://stapletonsl.github.io/Advanced-data-wrangle/"
 
 # site urls
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://GriffithUniLibrary.github.io
+url: https://stapletonsl.github.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /intro-data-wrangle
+baseurl: /Advanced-data-wrangle
 # add search box to footer?
 search: true
 
 # add google analytics if desired (optional)
 # if blank, it will be ignored
 # use JEKYLL_ENV=production on build command
-google_analytics: UA-166331172-1
+google_analytics:
 
 # defaults (to simplify front matter)
 defaults:
