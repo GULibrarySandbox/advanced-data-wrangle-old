@@ -10,10 +10,9 @@ Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrar
 {% include card.md header="Download & install software" text=text %}
 
 -----
+#### About the data
 
-## Download the data
-
-You can wrangle three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
+We will wrangle three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
 
 The QLD Traffic Accident open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. 
 
@@ -21,13 +20,17 @@ The QLD Driver Reviver Stations open dataset provides address locations of place
 
 QLD traffic camera locations is one of a number of open datasets that identify the general location of traffic cameras across Queensland. 
 
-The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  Download each from the links below:
+The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  
+
+{% capture text %}
+Download each dataset from the links below:
 
 1. `QLDDriverReviverStations.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/UMsrDiZlyHRyFpr)
 2. `QLDTrafficAccidentCleanData_2014_2018.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/kITNLGNOnQxNtxB)
 3. `QPSTrafficCamerasClean.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/MNzgOVpVb0d0W5u)
 
- to your `Downloads` folder.
+to your `Downloads` folder.{% endcapture %}
+{% include card.md header="Download datasets" text=text %}
 
 -----
 
