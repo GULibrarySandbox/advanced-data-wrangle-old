@@ -35,7 +35,7 @@ If OpenRefine does not automatically open within your browser after launch, poin
 {% capture text %}
 - Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
 - Give the project a meaningful name such as `TrafficAccident_2018`
-- If all looks fine, click `Create Project`.
+- If all looks fine, click `Create Project`.{% endcapture %}
 {% include card.md header="Data preview" text=text %}
 
 
