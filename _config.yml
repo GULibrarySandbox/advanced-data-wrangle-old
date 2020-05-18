@@ -28,7 +28,7 @@ repo: "https://stapletonsl.github.io/Advanced-data-wrangle/"
 url: https://stapletonsl.github.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /Advanced-data-wrangle
+baseurl: /Advanced-data-wrangle/
 # add search box to footer?
 search: true
 
