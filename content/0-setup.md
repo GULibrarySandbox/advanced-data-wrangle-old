@@ -14,12 +14,16 @@ Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrar
 
 ## Download the data
 
-You will be using three datasets in this workshop, one which was cleaned in the Introduction to Data Wrangling with OpenRefine. It is data from Transport & Main Roads obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). The originsla dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. In addition to this you will be using the QLD Driver Reviver Stations open dataset and a QLD traffic camera locations open dataset, both from data.qld.gov.au.   
+You will be using three datasets in this workshop, one which was cleaned in the Introduction to Data Wrangling with OpenRefine. It is data from Transport & Main Roads obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
+
+The original dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. 
+
+In addition to this you will be using the QLD Driver Reviver Stations open dataset and a QLD traffic camera locations open dataset, both from data.qld.gov.au.   
 
 The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  Download each from the links below:
 
 1. `QLDDriverReviverStations.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/UMsrDiZlyHRyFpr)
-2. `QLDTrafficAccidentCleanData_2014_2018.csv`[here](https://research-storage.griffith.edu.au/owncloud/index.php/s/kITNLGNOnQxNtxB)
+2. `QLDTrafficAccidentCleanData_2014_2018.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/kITNLGNOnQxNtxB)
 3. `QPSTrafficCamerasClean.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/MNzgOVpVb0d0W5u)
 
  to your `Downloads` folder.
