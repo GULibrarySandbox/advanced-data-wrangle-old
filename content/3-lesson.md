@@ -1,46 +1,31 @@
 ---
-title: Facets
+title: Add
 nav: true
 ---
-# Facets & Clustering 
+# Add a new variable to enhance the data
 
 --------
 
-### Facets
-Faceting is a useful feature of OpenRefine and can help you:
-- get an overview of the data in a project
-- get counts of data in specific columns
-- help you identify missing, misspelled or inconsistent data.
+### 
 
-A common use case for your data might be where you want to know how many times a particular value appears in a column in your data.
+We want to enhance this dataset by adding a new variable, to explore if traffic cameras are located in any of the same streets as accidents in 2018.  We can do this by using the  `qpsactive_parkedmscamera.csv`  dataset.
 
-A 'Facet' groups all the like values that appear in a column, and then allows you to filter the data by these values 
-and edit the values for a number of records in one go.
+We need to identify a common value in each of the datasets that we can match on.  A key variable.  To do this we need to explore both datasets to see if a key or very similar variable is available that we can work with. 
 
-The first facet to explore is  `Text facet`. It groups all the identical text values in a column and lists each value 
-and the number of records in which that value appears. Facet information always appears in the left-hand panel 
-in the OpenRefine interface.
+Lets open up another instance of OpenRefine to do this.  
 
-
-{% capture text %}
-Here we will use faceting to look at the values represented in the  `Crash_Month` column.
-
-- Scroll over to the  `Crash_Month` column.
-- Click the down arrow and choose  `Facet > Text facet`.
-
-In the left panel, you will now see a box containing every unique value in the `Crash_Month` column,
-along with a number representing how many times that value occurs in the column.  At the top of the box you can sort the results by name and count. A great feature for exploring a large dataset.
-
-- Try sorting this facet by name and by count. How are they sorted? Name is alphabetical and count is largest first.
-- Which months have the highest and lowest traffic related accidents? May is the highest, January the lowest.
-- Close facet by clicking the  `x`  in top corner of the Facet panel.{% endcapture %} {% include card.md header="Activity – Looking at data through Facets" text=text %}
-
-
-{% capture alert %}*Note:* Always close facets when you are finished with them, so as not to affect future facets or results.
-{% endcapture %}
+{% capture alert %} Note: The `qpsactive_parkedmscamera.csv`  dataset didn’t provide geolocation, lat or long, as the traffic camera sites are mobile and can move from one end of a road to another, so we cannot match on this.  The dataset also needed a bit of cleaning to get it to a format to use. Some `suburb name` observations contained multiple values such as `Brisbane/Spring Hill`, perhaps to indicate the street location was on the border of two suburbs.  In these cases, for the purpose of the training, the values have been modified to the first suburb listed so that there is only one value in a cell.{% endcapture %}
 {% include alert.md text=alert color="warning" %}
 
-You can also amend data with Facets.
+{% capture text %}
+- Add the url  `http://127.0.0.1:3333/`  to a new tab in your browser.  
+- Create a new project using  `QPSTrafficCamerasClean.csv`  dataset
+- Name it  `QPSTrafficCamerasClean`
+- Look at both datasets, what variables do they have in common?
+  - `Camera_Street`  and  `Suburb_1`  in  `QPSTrafficCamerasClean`
+  - `Crash_Street`  and `Suburb`  columns in  `QLDTrafficAccident_2018`{% endcapture %} 
+{% include card.md header="Find a key variable" text=text %}
+
 
 In this next activity you want to limit to a sub-set of this data, with records about *crashes* which resulted in *fatalities* or *hospitalisation*.
 {% capture text %}
