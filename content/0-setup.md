@@ -16,7 +16,11 @@ Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrar
 
 You can wrangle three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
 
-The QLD Traffic Accident open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. The QLD Driver Reviver Stations open dataset provides address locations of places to stop and refresh when travelling on Queensland roads.  The QLD traffic camera locations open dataset is one of a number of open datasets that identify the general location of different types of traffic cameras across Queensland. 
+The QLD Traffic Accident open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. 
+
+The QLD Driver Reviver Stations open dataset provides address locations of places to stop and refresh when travelling on Queensland roads. 
+
+QLD traffic camera locations is one of a number of open datasets that identify the general location of traffic cameras across Queensland. 
 
 The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  Download each from the links below:
 
