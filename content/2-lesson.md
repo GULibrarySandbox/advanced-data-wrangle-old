@@ -37,9 +37,7 @@ If OpenRefine does not automatically open within your browser after launch, poin
 - Give the project a meaningful name such as `TrafficAccident_2018`
 - If all looks fine, click `Create Project`.
 {% include card.md header="Data preview" text=text %}
-{% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %} 
 
------
 
 ### Key Points
 
