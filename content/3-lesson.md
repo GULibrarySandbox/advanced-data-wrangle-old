@@ -57,6 +57,8 @@ Let’s concatenate the values from `Crash_Street_Suburb`  and `Suburb columns`
 - Preview and OK.{% endcapture %} 
 {% include card.md header="Add a new column with values from two columns " text=text %}
 
+Check out this image of the GREL in action. 
+
 {% include figure.html img="AdvGREL.jpg" alt="Advanced GREL" caption="Advanced GREL" width="100%" %}
 
 {% include button.md text="watch this video to work through the activities" link="    " color="info" %}
