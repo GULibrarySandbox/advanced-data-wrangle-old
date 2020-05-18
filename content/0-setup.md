@@ -7,8 +7,8 @@ nav: true
 -----
 
 ## Download & install software
-{% capture text %}
-- Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/0-setup.html) setup details for instructions. 
+
+Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/0-setup.html) setup details for instructions. 
 
 -----
 
