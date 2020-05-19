@@ -53,14 +53,13 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 
 - 251 rows have a new variable value added of a camera located in the street.
 - `Sort`  the new column  `Camera_Street`  to view the records that have data for this variable.
-
-We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.
-
 - Close both projects.
 
-More information on  `cell.cross`  function [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname)
+We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.{% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
+ 
+More information on  `cell.cross`  function [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname).
 
-More GREL support [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) {% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
+More GREL support [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
 
 
 {% include button.md text="Watch video" link="   " color="info" %}
