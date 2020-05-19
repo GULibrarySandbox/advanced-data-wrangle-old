@@ -14,7 +14,7 @@ GeoJSON data must follow a structured format, but the file name may end with eit
 
 
 {% capture text %}
-{% endcapture %} {% include card.md header="Activity - tranforming text to numbers" text=text %}
+{% endcapture %}{% include card.md header="Activity - tranforming text to numbers" text=text %}
 
 
 {% include button.md text="Watch video" link="https://vimeo.com/412607607/08380e8150" color="info" %}
