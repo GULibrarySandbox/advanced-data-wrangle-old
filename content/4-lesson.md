@@ -47,27 +47,23 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 
   `cell.cross("QPSTrafficCamerasClean","Camera_Street_Suburb")[0].cells["Camera_Street"].value`
 
-cell.cross function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
+The  `cell.cross`  function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
 
-`"QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching
-`[0]`  counts from the first value. 
-`.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
+  - `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching.
+  - `[0]`  counts from the first value. 
+  - `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
     
 - 251 rows have a new variable value added of a camera located in the street.
 - Sort the new column  `Camera_Street`  to view the records that have data for this variable.
 
-We could have added the data from the  `Camera_Street_Suburb column`.   If you would like undo and try this instead following the instructions above.
+We could have added the data from the  `Camera_Street_Suburb column`.    If you would like undo and try this instead following the instructions above.
 
 - Close both projects.
 
-More information on crosscell function: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname
+More information on  `cell.cross`  function [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname)
 
-More GREL support: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions {% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
+More GREL support [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) {% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
 
 
 {% include button.md text="Watch video" link="   " color="info" %}
-
-----
-
-### Key Points
 
