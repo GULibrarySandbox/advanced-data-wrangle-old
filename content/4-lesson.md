@@ -51,7 +51,6 @@ The  `cell.cross`  function performs a cross or lookup between two columns in tw
   - `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching.)
   - `[0]`  counts from the first value. )
   - `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
-    
 - 251 rows have a new variable value added of a camera located in the street.
 - Sort the new column  `Camera_Street`  to view the records that have data for this variable.
 
