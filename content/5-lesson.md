@@ -16,7 +16,7 @@ To create a [tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-
 
 multi-value cells need to be split by the value.  
 
-This task is helpful where there are multiple values in a cell that are not organised consistently, such as when survey respondents can select multiple, controlled values to answer a question.  The  `Site features`  column in the dataset `QLDDriverReviverStations.csv`  is an example of this.  Let's explore:
+This task is helpful where there are multiple values in a cell that are not organised consistently, such as when survey respondents can select multiple, controlled values to answer a question.  The  `Site features`  column in the dataset `QLDDriverReviverStations.csv`  is an example of this. 
 
 {% capture text %}
 - Create a new project with dataset  `QLDDriverReviverStations.csv`  in OpenRefine
@@ -40,7 +40,7 @@ There is still a bit more cleaning to do to remove whitespaces around the separa
 - Remove the “; “ with  `Edit Cells > Transform` and 
 - GREL expression:  `value.replace("; ",";").replace(" ;",";")`
 - `Facet > Custom text facet > using value.split(“;”)`  to see all value results.
-- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the Site features column" text=text %}
+- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the  `Site features`  column" text=text %}
 
 {% capture text %}
 - Click on first Facet result  `Play area` , with 11 results
