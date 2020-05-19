@@ -62,10 +62,8 @@ We could have added the data from the  `Camera_Street_Suburb column`.   If you w
 
 More information on crosscell function: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname
 
-More GREL support: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions{% endcapture %} {% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
+More GREL support: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions {% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
 
-{% capture text %}
-{% endcapture %} {% include card.md header=" text=text %}
 
 {% include button.md text="Watch video" link="   " color="info" %}
 
