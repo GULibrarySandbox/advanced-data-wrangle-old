@@ -49,9 +49,9 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 
 The  `cell.cross`  function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
 
-  - `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching.
-  - `[0]`  counts from the first value. 
-  - `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
+  ( `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching.)
+  ( `[0]`  counts from the first value. )
+  ( `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.)
     
 - 251 rows have a new variable value added of a camera located in the street.
 - Sort the new column  `Camera_Street`  to view the records that have data for this variable.
