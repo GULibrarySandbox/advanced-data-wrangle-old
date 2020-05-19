@@ -13,8 +13,4 @@ You must include column headers lat and lon, or the fuller spelling, latitude an
 GeoJSON data must follow a structured format, but the file name may end with either .geojson or .json. The GeoJSON structured format orders coordinates in longitude-latitude format, the same as X-Y coordinates in mathematics. This is the opposite of Google Maps and several other web map tools, which order points in latitude-longitude format. [(Dougherty, 2017)](https://datavizforall.org/convert-geojson.html){end capture}{% include alert.md text=text color=info %}
 
 
-{% capture text %}
-{% endcapture %}{% include card.md header="Activity - tranforming text to numbers" text=text %}
-
-
 {% include button.md text="Watch video" link="https://vimeo.com/412607607/08380e8150" color="info" %}
