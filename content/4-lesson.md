@@ -47,7 +47,7 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 
      `cell.cross("QPSTrafficCamerasClean","Camera_Street_Suburb")[0].cells["Camera_Street"].value`
   
-  - `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching.
+  - `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching. 
   -`[0]`  counts from the first value. 
   - `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
 
