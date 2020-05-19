@@ -25,8 +25,6 @@ We need to deduplicate this key variable in  `QPSTrafficCamerasClean`  so that i
 
 To look at an example, let’s filter  `Camera_Street_Suburb`  by the term  `Anzac`.  Kippa-Ring has two cameras listed.
 
-{% include button.md text="Watch video" link="    " color="info" %}
-
 {% capture text %}
 - Go to  `Camera_Street_Suburb`  `>Facet>Customized facets>Duplicates facet`
 - Click on  `True`  in the facet to see all the duplicate values (how many?)
@@ -39,12 +37,31 @@ To look at an example, let’s filter  `Camera_Street_Suburb`  by the term  `Anz
 
 This is one way to remove duplicates, see this advice from [Illinois University Library](https://guides.library.illinois.edu/openrefine/duplicates) for another.{% endcapture %} {% include card.md header="Remove duplicate rows" text=text %}
 
-{% capture text %}
-{% endcapture %} {% include card.md header="Activity - sort by multiple columns" text=text %}
-
+Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `Camera_Street_Suburb`  from the `QPSTrafficCamerasClean`  dataset.
 
 {% capture text %}
-{% endcapture %} {% include card.md header="Activity - find & fix missing values by sorting" text=text %}
+- Go to  `QLDTrafficAccident_2018`  project
+- On  `Crash_Street_Suburb`  `>Edit Column>Add column based on this column>`
+- name the new Column  `Camera_Street`
+- enter this GREL expression:
+
+  `cell.cross("QPSTrafficCamerasClean","Camera_Street_Suburb")[0].cells["Camera_Street"].value`
+
+cell.cross function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . More information here: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname
+
+    ("QPSTrafficCamerasClean","Camera_Street_Suburb") is the data we are looking up and matching
+    [0] counts from the first value. 
+    .cells[“Camera_Street”].value is a command to add the value from the Camera Street variable to the new column, if there is a match.
+    
+- 251 rows have a new variable value added of a camera located in the street.
+- Sort the new column  `Camera_Street`  to view the records that have data for this variable.
+
+We could have added the data from the  `Camera_Street_Suburb column`.  If you would like undo and try this instead following the instructions above.
+
+- Close both projects.{% endcapture %} {% include card.md header="Activity - sort by multiple columns" text=text %}
+
+{% capture text %}
+{% endcapture %} {% include card.md header="Match a key variable from two datasets and add a variable using GREL cell.cross function" text=text %}
 
 {% include button.md text="Watch video" link="   " color="info" %}
 
