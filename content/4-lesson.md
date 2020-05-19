@@ -37,7 +37,7 @@ To look at an example, let’s filter  `Camera_Street_Suburb`  by the term  `Anz
 
 This is one way to remove duplicates, see this advice from [Illinois University Library](https://guides.library.illinois.edu/openrefine/duplicates) for another.{% endcapture %} {% include card.md header="Remove duplicate rows" text=text %}
 
-Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `Camera_Street_Suburb`  from the `QPSTrafficCamerasClean`  dataset.
+Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `Camera_Street_Suburb`  from the `QPSTrafficCamerasClean`  dataset. We will do this using a GREL expression `cell.cross`. The  `cell.cross`  function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
 
 {% capture text %}
 - Go to  `QLDTrafficAccident_2018`  project
@@ -45,11 +45,8 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 - name the new Column  `Camera_Street`
 - enter this GREL expression:
 
-  `cell.cross("QPSTrafficCamerasClean","Camera_Street_Suburb")[0].cells["Camera_Street"].value`
-
-The  `cell.cross`  function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
-
-- 
+     `cell.cross("QPSTrafficCamerasClean","Camera_Street_Suburb")[0].cells["Camera_Street"].value`
+  
   - `("QPSTrafficCamerasClean","Camera_Street_Suburb")`  is the data we are looking up and matching.
   -`[0]`  counts from the first value. 
   - `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
