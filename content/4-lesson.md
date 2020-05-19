@@ -3,7 +3,7 @@ title: Key
 nav: true
 ---
 
-# Create the key variable
+# Create the new variable
 
 ------
 Now we need to do the same process in  `QPSTrafficCamerasClean`  project data
@@ -51,7 +51,8 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
   - `[0]`  counts from the first value. 
   - `.cells[“Camera_Street”].value`  is a command to add the value from the Camera Street variable to the new column, if there is a match.
 
-- 251 rows have a new variable value added of a camera located in the street.
+251 rows have a new variable value added of a camera located in the street.
+
 - `Sort`  the new column  `Camera_Street`  to view the records that have data for this variable.
 
 We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.
