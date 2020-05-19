@@ -39,11 +39,10 @@ In this next activity learn how Github works and create a repository to host the
 - Register for Github account or login if you have one already. 
 - Or you can use another hosting service you can embed into.
 - Do *Hello World tutorial* [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
-
 - Go to your newly created  `Hello World` repository
 - Select  `Upload file`
 - `Drag and drop`  your newly created  `map.geojson`  file 
 - Name it  `Driver Reviver Stations`
-- You have published in interactive map with data!{% endcapture %} {% include card.md header="Upload map to Github" text=text %}
+- You have just published in interactive map with data!{% endcapture %} {% include card.md header="Upload map to Github" text=text %}
 
 {% include button.md text="Watch video" link="https://vimeo.com/412607607/08380e8150" color="info" %}
