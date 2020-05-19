@@ -56,7 +56,7 @@ Let's now change the (blank) cells a “no” value.
 {% capture text %}
 - Go to each new column and  `Facet > Text Facet`
 - Hover over  `(blank)` and select edit 
-- Change  `(blank)` to  `No`  and close facet
+- Change  `(blank)` to  `No` , ` apply` and close facet
 - Repeat on each column{% endcapture %} {% include card.md header="fill all blank cells in new columns with a value" text=text %}
 
 The final step is to export specific variables from this tidy dataset to a .csv file which can be parsed by geo.json.
