@@ -3,6 +3,19 @@ title: Resources
 nav: true
 ---
 # Resources & alternative methods
+----
+
+#### References
+
+Little, John (2018). Cleaning data with OpenRefine. [https://libjohn.github.io/openrefine/demonstration.html](https://libjohn.github.io/openrefine/index.html)
+
+Dougherty, Jack (2017). Hands-On data visualization: interactive storytelling from spreadsheets to code, [https://handsondataviz.org/index.html](https://handsondataviz.org/index.html)
+
+Williamson, Evan (2017). Fetching and parsing data from the Web with OpenRefine, The Programming Historian (6), [https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
+
+University of Illinois Library (2020). OpenRefine guide. [https://guides.library.illinois.edu/openrefine/](https://guides.library.illinois.edu/openrefine/)
+
+----
 
 #### Aternative methods for splitting multi-value cells 
 
@@ -20,19 +33,6 @@ if(value.contains("Universal access toilet"),"Yes",value).replace(/.*[^Yes].*/,"
 10.	Preview and ok
 11.	repeat steps above for each of the items owned (can reuse expression from history tab)
 
+----
 
-#### References
-
-Little, John (2018). Cleaning data with OpenRefine. [https://libjohn.github.io/openrefine/demonstration.html](https://libjohn.github.io/openrefine/demonstration.html)
-
-Dougherty, Jack (2017). Data visualization for all, [https://datavizforall.org/convert-edit-and-create-map-data-with-geojson-io.html](https://datavizforall.org/convert-edit-and-create-map-data-with-geojson-io.html)
-
-Williamson, Evan (2017). Fetching and Parsing Data from the Web with OpenRefine, The Programming Historian (6), [https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
-
-University of Illinois Library (2020). OpenRefine guide. [https://guides.library.illinois.edu/openrefine/](https://guides.library.illinois.edu/openrefine/)
-
-
-
-
-{% include button.md text="Watch video" link="https://vimeo.com/412608736/a3ea7cc31c" color="info" %}
 
