@@ -37,10 +37,10 @@ Now we want to perform a facet by splitting the values, but we need to clean the
 
 There is still a bit more cleaning to do to remove whitespaces around the separator ` ;`  .  The GREL expression won’t work with this as a separator unless it is represented consistently in each cell.
 
-- Remove the “; “ with  `Edit Cells > Transform` and 
+- Remove the  `“; “`  with  `Edit Cells > Transform` and 
 - GREL expression:  `value.replace("; ",";").replace(" ;",";")`
 - `Facet > Custom text facet > using value.split(“;”)`  to see all value results.
-- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the  `Site features`  column" text=text %}
+- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the *Site features* column" text=text %}
 
 {% capture text %}
 - Click on first Facet result  `Play area` , with 11 results
