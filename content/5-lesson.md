@@ -40,7 +40,7 @@ There is still a bit more cleaning to do to remove whitespaces around the separa
 - Remove the  `“; “`  with  `Edit Cells > Transform` and 
 - GREL expression:  `value.replace("; ",";").replace(" ;",";")`
 - `Facet > Custom text facet > using value.split(“;”)`  to see all value results.
-- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the *Site features* column" text=text %}
+- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
 
 {% capture text %}
 - Click on first Facet result  `Play area` , with 11 results
@@ -67,7 +67,7 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 - `Title`, `Latitude`, `Longitude`, `Location Description`, `Water`, `Universal access toilet`, `Table`, `Play area`, `Barbecue`  will remain
 - Ok
 - Click `Export` button, top right hand corner
-- Select Comma-separated valuedataset
+- Select Comma-separated value dataset
 - save file{% endcapture %} {% include card.md header="Export selected columns to .csv file" text=text %}
 
 {% include button.md text="Watch the steps above on this video" link="https://vimeo.com/412605933/d8be2a9d15" color="info" %}
