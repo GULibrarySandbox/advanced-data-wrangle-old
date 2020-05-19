@@ -54,7 +54,7 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 - 251 rows have a new variable value added of a camera located in the street.
 - `Sort`  the new column  `Camera_Street`  to view the records that have data for this variable.
 
-We could have added the data from the  `Camera_Street_Suburb column` using the same stepa above.
+We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.
 
 - Close both projects.
 
