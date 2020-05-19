@@ -1,46 +1,46 @@
 ---
-title: GREL
+title: Tidy
 nav: true
 ---
 
-# Transforming data using GREL 
-
-(General Refine Expression Language)
+# Tidy data - a revisit 
 
 -----
 
-Transformations in OpenRefine enable manipulations of data in columns. Such types of changes include:
+To create a [tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) dataset, where:
+- Each variable forms a column
+- Each observation forms a row
+- Each type of observational unit forms a table,
 
-- Splitting data from a single column into multiple columns (e.g., splitting an address into multiple parts) to enable tidy data – one variable per column.
+multi-value cells need to be split by the value.  
 
-- Standardising the format of data in a column without changing the values (e.g., removing punctuation or standardising a date format)
-
-- Extracting data from a longer text string (e.g., finding DOIs within a bibliographic citation)
-
-It can be difficult to read, ingest and process data which has multiple values within the one cell.  OpenRefine has methods to split those values into multiple cells or columns. OpenRefine has several ways to do this. 
-
-First we will split data using the in-built programming capabilities of GREL within OpenRefine.  GREL stands for *General Refine Expression Language*. GREL expressions are a little like Excel formulae, although they tend to focus on text manipulations rather than numeric functions.
+This task is helpful where there are multiple values in a cell that are not organised consistently, such as when survey respondents can select multiple, controlled values to answer a question.  The  `Site features`  column in the dataset `QLDDriverReviverStations.csv`  is an example of this.  Let's explore:
 
 {% capture text %}
-Look at the data in  `Suburb_PostCode`  column.  It has more than one value in each cell. The values include the *suburb name* and a *postcode* inside brackets (). This is difficult to process and analyse and needs splitting to make the data tidy. Before we can split the values into individual columns, we first need to remove the extra characters such as *brackets* and *leading (or trailing) whitespace*.
+- Create a new project with dataset  `QLDDriverReviverStations.csv`  in OpenRefine
+- Name project  `QLDDriverReviverStationsClean` 
 
-Let's remove all the unnecessary characters by using the GREL command  `value.replace`.
+To split the values in  `Site features`  across multiple columns we need to standardise the content.
+- Go to  `Site features`  column
+- Identify missing values with  `Facet> Customised Facet > Facet by blank`
 
-`Value.replace`  is the *command*. What needs to be added to make the *command* work are what are called *arguments* in programming speak. In this case, the arguments are the values of *what needs to be replaced*, and then *what it needs to be replaced with*. The argument is written inside brackets like this  `("value to replace","new value")`.
+It appears the original spreadsheet has *hard* returns inside the cells remove these with:
 
-- Click the down arrow at the top of the  `Suburb_PostCode`  column.
-- Select  `Edit Cells > Transform ...` . 
+- `Edit Cells> Common Transform  > Collapse consecutive whitespace` 
 
-This will open a window in which you can enter a *GREL expression*. An expression is a combination of the *command* you will be using, plus the *arguments* you will be using to modify the command, i.e. the values that will be changed.
+Now we want to perform a facet by splitting the values, but we need to clean the cells up first.
 
-- In the Expression box, type  `value.replace("(", "")`  to remove all left brackets by replacing them with nothing.
+- Clean up the cells to remove the  `“* “`  with  `Edit Cells > Transform`  and 
+- GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.
 
-In this case, the second value is empty since we want to remove the bracket, i.e. replace the bracket with nothing. You do not need to add any spaces within the expression. If you do, and they appear inside the quote marks, they will be added or removed, depending on within which set of values they appear.
+There is still a bit more cleaning to do to remove the whitespaces around the separator ` ;`  .  The GREL expression won’t work with this as a separator unless it is represented consistently in each cell.
 
-The *Preview* screen will display on the left the cell value as it is before transformation, and on the right, what the value will be after the expression has run. This allows you to correct any errors in writing the expression, e.g., adding spaces where they are not needed, using unmatching quote marks. 
-- Click  `OK`.
+- Remove the “; “ with  `Edit Cells > Transform and 
+GREL expression:  `value.replace("; ",";").replace(" ;",";")`
+- `Facet > Custom text facet > using value.split(“;”)`  to see all value results{% endcapture %} {% include card.md header="Activity - transforming data using GREL" text=text %}
 
-The  `Suburb_PostCode`  column should now contain no left brackets.{% endcapture %} {% include card.md header="Activity - transforming data using GREL" text=text %}
+
+
 
 {% capture text %}
 Use the strategy above to remove the right-hand bracket (")") from the  `Suburb_PostCode`  column.
