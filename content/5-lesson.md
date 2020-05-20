@@ -21,28 +21,27 @@ This task is helpful where there are multiple values in a cell that are not orga
 {% capture text %}
 - Create a new project with dataset  `QLDDriverReviverStations.csv`  in OpenRefine
 - Name project  `QLDDriverReviverStationsClean` 
+- Go to  `Site features`  column `Facet > Text Facet >` to see multiple values in a messy state.
 
 To split the values in  `Site features`  across multiple columns we need to standardise the content.
 - Go to  `Site features`  column
-- Identify missing values with  `Facet> Customised Facet > Facet by blank`
+- Firstly, identify missing values with  `Facet> Customised Facet > Facet by blank`, there are none but...
 
 It appears the original spreadsheet has *hard* returns inside the cells. Remove these with:
 
 - `Edit Cells> Common Transform  > Collapse consecutive whitespace` 
 
-Now we want to perform a facet by splitting the values, but we need to clean the cells up first.  
+We want to perform a facet by splitting the values, but we need to clean the cell values first.  
 
 - Remove the  `“* “`  with  `Edit Cells > Transform`  and 
-- GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.
+- GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
 
-There is still a bit more cleaning to do to remove whitespaces around the separator ` ;`  .  The GREL expression won’t work with this as a separator unless it is represented consistently in each cell.
+The next step is to split the values so they can be moved to separate columns. There is a little more cleaning required to remove whitespaces around the separator ` ;`  .  The GREL expression to split the values won’t work with this as a separator unless it is represented consistently in each cell.
 
 - Remove the  `“; “`  with  `Edit Cells > Transform` and 
 - GREL expression:  `value.replace("; ",";").replace(" ;",";")`
 - `Facet > Custom text facet > using value.split(“;”)`  to see all value results.
-- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.{% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
-
-{% capture text %}
+- These include  `play area`,  `table`,  `universal access toilet`  and  `water`.
 - Click on first Facet result  `Play area` , with 11 results
 - Go to column  `Site features > Edit column> add column based on this column`
 - Type new column name  `Play area`
@@ -58,6 +57,7 @@ Let's now change the (blank) cells a “no” value.
 - Hover over  `(blank)` and select edit 
 - Change  `(blank)` to  `No` , ` apply` and close facet
 - Repeat on each column{% endcapture %} {% include card.md header="Fill all blank cells in new columns with a value" text=text %}
+Each location now has a column for the variables,  `table`,  `play area`,  `universal access toilet`  and  `water`,  with a yes/no value.
 
 The final step is to export specific variables from this tidy dataset to a .csv file which can be parsed by geo.json.
 
