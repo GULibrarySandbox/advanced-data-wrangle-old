@@ -34,7 +34,7 @@ It appears the original spreadsheet has *hard* returns inside the cells. Remove 
 We want to perform a facet by splitting the values, but we need to clean the cell values first.  
 
 - Remove the  `“* “`  with  `Edit Cells > Transform`  and 
-- GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
+- GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.{% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
 
 The next step is to split the values so they can be moved to separate columns. There is a little more cleaning required to remove whitespaces around the separator ` ;`  .  The GREL expression to split the values won’t work with this as a separator unless it is represented consistently in each cell.
 
