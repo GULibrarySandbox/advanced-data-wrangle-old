@@ -50,7 +50,15 @@ The next step is to split the values so they can be moved to separate columns. T
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab) 
 
-(There is an alternative method to this at bottom of lesson){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
+(Below is an alternative method to this which uses Regular Expression, a sequence of characters that define a search, in GREL.  Undo your steps to try this method){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
+
+{% capture text %}
+- Go to column  `Site features` > `Edit column> add column based on this column`
+- Type new column name  `Universal access toilet`
+- Click inside expression box, enter GREL expression:
+  `if(value.contains("Universal access toilet"),"Yes",value).replace(/.*[^Yes].*/,"")`
+- Preview and ok
+- Repeat steps above for each of the items owned (can reuse expression from  `history`  tab){% endcapture %} {% include card.md header="Alternative method to add a new column based on split values" text=text %}
 
 Let's now change the (blank) cells a “no” value.
 {% capture text %}
