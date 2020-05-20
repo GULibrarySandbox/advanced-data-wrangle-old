@@ -12,7 +12,11 @@ We need to identify a common value in each of the datasets that we can match on.
 
 Lets open up another instance of OpenRefine to do this.  
 
-{% capture alert %} Note: The `qpsactive_parkedmscamera.csv`  dataset didn’t provide geolocation, lat or long, as the traffic camera sites are mobile and can move from one end of a road to another, so we cannot match on this.  The dataset also needed a bit of cleaning to get it to a format to use. Some `suburb name` observations contained multiple values such as `Brisbane/Spring Hill`, perhaps to indicate the street location was on the border of two suburbs.  In these cases, for the purpose of the training, the values have been modified to the first suburb listed so that there is only one value in a cell.{% endcapture %}
+{% capture alert %} Note: The `qpsactive_parkedmscamera.csv`  dataset doesn’t provide geolocation, lat or long, as the traffic camera sites are mobile and can move from one end of a road to another, so we cannot match on this.  
+
+The dataset also needed some cleaning to transform to a useable format. Some `suburb name` observations contained multiple values such as `Brisbane/Spring Hill`, perhaps to indicate the street location was on the border of two suburbs.  
+
+In these cases, for the purpose of the training, the values have been modified to the first suburb listed so that there is only one value in a cell.{% endcapture %}
 {% include alert.md text=alert color="success" %}
 
 {% capture text %}
