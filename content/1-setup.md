@@ -38,13 +38,14 @@ to your `Downloads` folder.{% endcapture %}
 
 ##### Online
 
-You can find out more at the [OpenRefine](http://openrefine.org) website.  Check out the [documentation](http://openrefine.org/documentation.html) and great introductory videos. These videos and others on OpenRefine can also be found on YouTube - use the search term 'OpenRefine'.
+You can find out more via the [OpenRefine](http://openrefine.org) website.  Check out the [documentation](http://openrefine.org/documentation.html) and great introductory videos. These videos and others on OpenRefine can also be found on *YouTube* - use the search term `OpenRefine`.
 
-For advanced tutorials and support check out this [list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) created by the OpenRefine community.
+For advanced tutorials and support go to this [list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) created by the OpenRefine community.
 
 There is also a [Google Group](https://groups.google.com/forum/#!forum/openrefine) that can answer a lot of beginner questions and problems.
 
 ##### At Griffith University
 
 Help is available from eResearch and Library specialists at Griffith University [online drop-in](https://www.griffith.edu.au/library/research-publishing/online-drop-in-sessions) sessions, every Thursday between 2-3pm.
+
 Or get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
