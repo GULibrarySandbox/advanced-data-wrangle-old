@@ -38,11 +38,11 @@ to your `Downloads` folder.{% endcapture %}
 
 ##### Online
 
-You can find out more via the [OpenRefine](http://openrefine.org) website.  Check out the [documentation](http://openrefine.org/documentation.html) and great introductory videos. These videos and others on OpenRefine can also be found on *YouTube* - use the search term `OpenRefine`.
+You can find out more via the [OpenRefine](http://openrefine.org) website.  Check out the [documentation](http://openrefine.org/documentation.html).
 
 For advanced tutorials and support go to this [list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) created by the OpenRefine community.
 
-There is also a [Google Group](https://groups.google.com/forum/#!forum/openrefine) that can answer a lot of beginner questions and problems.
+There is also a [Google Group](https://groups.google.com/forum/#!forum/openrefine) that can answer questions.
 
 ##### At Griffith University
 
