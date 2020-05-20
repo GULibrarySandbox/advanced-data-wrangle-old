@@ -6,12 +6,12 @@ nav: true
 ----
 #### Map the data using GeoJSON
 
-We are now going to map the Driver Reviver data via its lat lon points.  You can use any spreadsheet tool and prepare a list of coordinate points (known as features).   
+Now for the next exciting step, to map the  `Driver Reviver`  data via latitude and longitude points.  You can use any spreadsheet tool to prepare a list of coordinate points (known as features).   
 
 {% capture text %}
-GeoJSON is popular open format for map data, and works across many tools. GeoJSON files can be used with Leaflet map code, Google Maps JS API code, Carto map tools, and more. Also, a GitHub repository will automatically display any GeoJSON files in a map view.
+GeoJSON is popular, open format for map data, and works across many tools.  A GitHub repository can automatically display any GeoJSON files in a map view using [Open Street Map](https://www.openstreetmap.org).
 
-GeoJSON data must follow a structured format, but the file name may end with either .geojson or .json. The GeoJSON structured format orders coordinates in longitude-latitude format, the same as X-Y coordinates in mathematics. [(Dougherty, 2017)](https://datavizforall.org/convert-geojson.html){% endcapture %}
+GeoJSON data must follow a structured format, and the file name may end with either .geojson or .json. The GeoJSON structured format orders coordinates in longitude-latitude format, the same as X-Y coordinates in mathematics. [(Dougherty, 2017)](https://datavizforall.org/convert-geojson.html){% endcapture %}
 {% include alert.md text=text color=info %}
 
 {% capture text %}
