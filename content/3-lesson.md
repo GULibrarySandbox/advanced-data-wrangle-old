@@ -36,13 +36,13 @@ One solution to the problem above is to match on a combination of values in both
 
 This method allows you to combine the contents of two columns, and add a specific string to a column’s values, such as a common separator.
 
-Before we can concatenate each of the two columns we need to undertake a few steps with each datasets.
+Before we can concatenate each of the two columns we need to undertake a few cleaning steps with each dataset.
 
 Let’s work on each dataset one at a time.  Working with  `QLDTrafficAccident_2018` first.
 
 {% capture text %}
 - Go to `QLDTrafficAccident_2018` project
-- Perform a `whitespace trim`  on  `Crash_Street`  and  `Suburb`  columns via `Edit cells > Common transforms > Trim leading and trailing whitespace`.
+- Perform a `whitespace trim`  on  *both* `Crash_Street`  and  `Suburb`  columns via `Edit cells > Common transforms > Trim leading and trailing whitespace`.
 - Go to  `Suburb`  column  `>Edit Column>Move Column Left`
 - Repeat this step until the  `Suburb`  column is next to  `Crash_Street`
 
