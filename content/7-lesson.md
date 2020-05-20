@@ -19,11 +19,14 @@ nav: true
 
 #### Resources
 
-- External research data guide:[https://libraryguides.griffith.edu.au/finddata](https://libraryguides.griffith.edu.au/finddata)
+- External research data guide: [https://libraryguides.griffith.edu.au/finddata](https://libraryguides.griffith.edu.au/finddata)
 
-- Griffith University Research Data Storage options: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage)
+- geojson.io tool: [geojson.io](geojson.io)
+
+- Github software development platform: [https://github.com/](https://github.com/)
+
+- Griffith University Research Data Storage: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage)
+
+- OpenRefine tool: [https://openrefine.org/](https://openrefine.org/)
 
 - Queensland Government Open Data Portal: [https://www.data.qld.gov.au/](https://www.data.qld.gov.au/)
-
-
-
