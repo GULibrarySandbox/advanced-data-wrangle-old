@@ -36,7 +36,7 @@ We want to perform a facet by splitting the value, so we need to remove some ext
 - Remove the  `“* “`  with  `Edit Cells > Transform`  and 
 - GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.{% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
 
-The next step is to split the values so they can be moved to separate columns. There is a little more cleaning required to remove whitespaces around the separator  ` ;`  .  The GREL expression to split the values won’t work with this as a separator unless it is represented consistently in each cell.
+The next step is to split the values so they can be moved to separate columns. There is a little more cleaning required to remove whitespaces around the separator  `;` .  The GREL expression to split the values won’t work with this as a separator unless it is represented consistently in each cell.
 
 {% capture text %}
 - Remove the  `“; “`  with  `Edit Cells > Transform` and 
@@ -56,6 +56,7 @@ The next step is to split the values so they can be moved to separate columns. T
 - Go to column  `Site features` > `Edit column> add column based on this column`
 - Type new column name  `Universal access toilet`
 - Click inside expression box, enter GREL expression:
+    
     `if(value.contains("Universal access toilet"),"Yes",value).replace(/.*[^Yes].*/,"")`
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse expression from  `history`  tab){% endcapture %} {% include card.md header="Alternative method to add a new column based on split values" text=text %}
