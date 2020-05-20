@@ -7,7 +7,7 @@ nav: true
 
 -----
 
-The  `QLDDriverReviverStations.csv` dataset lists *Driver Reviver* rest-stop locations and facilities for drivers in Queensland. We are going to create an interactive map of this data, using geo.json.  However the geo.json tool cannot parse the data yet as it not tidy.
+The  `QLDDriverReviverStations.csv` dataset lists *Driver Reviver* rest-stop locations and facilities available across Queensland. We are going to create an interactive map of this data, using geo.json.  However the geo.json tool cannot parse the data yet as it not tidy.
 
 To create a [tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) dataset, where:
 - Each variable forms a column
