@@ -5,7 +5,7 @@ nav: true
 # Resources
 ----
 
-#### References & Resources
+#### References
 
 - Cleaning data with OpenRefine by John Little [https://libjohn.github.io/openrefine/demonstration.html](https://libjohn.github.io/openrefine/index.html)
 
@@ -17,14 +17,15 @@ nav: true
 
 - OpenRefine guide by University of Illinois Library [https://guides.library.illinois.edu/openrefine/](https://guides.library.illinois.edu/openrefine/)
 
-- Griffith University Research Data Storage options: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage)
+- Tidy Data article by Hadley Wickham: [https://www.jstatsoft.org/article/view/v059i10](https://www.jstatsoft.org/article/view/v059i10)
+
+#### Resources
 
 - External research data guide:[https://libraryguides.griffith.edu.au/finddata](https://libraryguides.griffith.edu.au/finddata)
 
-- Tidy Data article by Hadley Wickham: [https://www.jstatsoft.org/article/view/v059i10](https://www.jstatsoft.org/article/view/v059i10)
+- Griffith University Research Data Storage options: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage)
 
-- QLD Government Open Data Portal: [https://www.data.qld.gov.au/](https://www.data.qld.gov.au/)
+- Queensland Government Open Data Portal: [https://www.data.qld.gov.au/](https://www.data.qld.gov.au/)
 
-----
 
 
