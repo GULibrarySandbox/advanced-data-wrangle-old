@@ -64,7 +64,7 @@ Let’s concatenate the values from `Crash_Street_Suburb`  and `Suburb`  columns
 
 The image below shows the GREL expression in action. 
 
-{% include figure.html img="AdvGREL.jpg" alt="Advanced GREL" caption="Advanced GREL" width="100%" %}
+{% include figure.html img="AdvGREL.jpg" alt="Add column based on two variables using GREL" caption="Advanced GREL" width="100%" %}
 
 {% include button.md text="watch this video to work through the activities" link="    " color="info" %}
 
