@@ -32,7 +32,7 @@ These could be used as a key to match on.  A key is a unique, matching value in 
 - Go to `Camera_Street > Facet > Text Facet`{% endcapture %} 
 {% include card.md header="Find a key variable" text=text %}
 
-One solution to the problem above is to match on a combination of values in both columns.  This is when it becomes useful to combine information from multiple columns (variables) into one column using a process called “concatenation.” 
+One solution to the problem above is to match on a combination of values in both columns.  This is when it becomes useful to combine information from multiple columns (variables) into one column using a process called *concatenation*. 
 
 This method allows you to combine the contents of two columns, and add a specific string to a column’s values, such as a common separator.
 
@@ -46,14 +46,15 @@ Let’s work on each dataset one at a time.  Working with  `QLDTrafficAccident_2
 - Go to  `Suburb`  column  `>Edit Column>Move Column Left`
 - Repeat this step until the  `Suburb`  column is next to  `Crash_Street`
 
-It is important when amending or enhancing data to retain values until you are satisfied that transformations have worked accurately. So we will duplicate one column from each set and work with it. 
+It is important when amending or enhancing data to retain values until you are satisfied that transformations have worked accurately. So we will duplicate one column from each dataset and work with it. 
 
 - At  `Crash_Street`  column  `>Edit column > Add a new column based on this column`
 - name it  `Crash_Street_Suburb`
 
-Let’s concatenate the values from `Crash_Street_Suburb`  and `Suburb columns`
+Let’s concatenate the values from `Crash_Street_Suburb`  and `Suburb`  columns.
 
-- At the GREL expression input box type the command:  `value + ', ' + cells['Suburb'].value` 
+- At the GREL expression input box type the command:  
+  `value + ', ' + cells['Suburb'].value` 
   - `value`  indicates the values in the current column.
   - `cells[‘Suburb’].value`  indicates to add cell values from the ‘named’ column you would like to combine with.
   - ` + ‘, ’  + ` adds an additional string in the results, in this case a common separator with white space `, `
