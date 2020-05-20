@@ -38,6 +38,7 @@ We want to perform a facet by splitting the values, but we need to clean the cel
 
 The next step is to split the values so they can be moved to separate columns. There is a little more cleaning required to remove whitespaces around the separator ` ;`  .  The GREL expression to split the values won’t work with this as a separator unless it is represented consistently in each cell.
 
+{% capture text %}
 - Remove the  `“; “`  with  `Edit Cells > Transform` and 
 - GREL expression:  `value.replace("; ",";").replace(" ;",";")`
 - `Facet > Custom text facet > using value.split(“;”)`  to see all value results.
