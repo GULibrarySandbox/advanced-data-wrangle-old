@@ -23,15 +23,15 @@ This task is helpful where there are multiple values in a cell that are not orga
 - Name project  `QLDDriverReviverStationsClean` 
 - Go to  `Site features`  column `Facet > Text Facet >` to see multiple values in a messy state.
 
-To split the values in  `Site features`  across multiple columns we need to standardise the content.
+Let's first check if any rows have missing values.
 - Go to  `Site features`  column
-- Firstly, identify missing values with  `Facet> Customised Facet > Facet by blank`, there are none but...
+- `Facet> Customised Facet > Facet by blank` 
 
-It appears the original spreadsheet has *hard* returns inside the cells. Remove these with:
+There are no missing values but it appears the original spreadsheet has *hard* returns inside the cells. Remove these with:
 
 - `Edit Cells> Common Transform  > Collapse consecutive whitespace` 
 
-We want to perform a facet by splitting the values, but we need to clean the cell values first.  
+We want to perform a facet by splitting the value, so we need to remove some extra characters and create a common separator.
 
 - Remove the  `“* “`  with  `Edit Cells > Transform`  and 
 - GREL expression:  `value.replace("* ",";").replace(" *",";")`  to replace the whitespace around the  ` *`  with a common separator.{% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
