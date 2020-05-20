@@ -80,7 +80,7 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 
 {% capture text %}
 - Go to  `All` column  `>Edit Columns> Reorder Remove columns`
-- Drag and drop the columns `Site Features`, `Site specific alerts`, `Site and Access Comments`, `GPS coordinates`, `Access Direction`, `Upcoming operation dates`, `signed`, `camping limitations` to the `remove` box.
+- Drag and drop the columns not needed including `Site Features`, `Site specific alerts`, `Site and Access Comments`, `GPS coordinates`, `Access Direction`, `Upcoming operation dates`, `signed`, `camping limitations` to the `remove` box.
 - `Title`, `Latitude`, `Longitude`, `Location Description`, `Water`, `Universal access toilet`, `Table`, `Play area`, `Barbecue`  will remain
 - Ok
 - Click `Export` button, top right hand corner
