@@ -61,7 +61,7 @@ The next step is to split the values so they can be moved to separate columns. T
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse expression from  `history`  tab)
 
-This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on using expressions to formulate expressions.
+This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions.
 {% endcapture %} {% include card.md header="Alternative method to add a new column based on split values" text=text %}
 
 Let's now change the (blank) cells a “no” value.
