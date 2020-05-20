@@ -58,8 +58,9 @@ The next step is to split the values so they can be moved to separate columns. T
 - Click inside expression box, enter GREL expression:
     
     `if(value.contains("Universal access toilet"),"Yes",value).replace(/.*[^Yes].*/,"")`
+    
     This means...
-    - if(the value in the cell contains "Universal access toilet", replace it with "Yes" value), then replace (anything that is not "Yes" that is found one or more times in the cell, with "" ie. a blank)
+    if (the value in the cell contains "Universal access toilet", replace it with "Yes" value), then replace (anything that is not "Yes" that is found one or more times in the cell, with "" ie. a blank).
     
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse expression from  `history`  tab)
@@ -73,9 +74,9 @@ Let's now change the (blank) cells a “no” value.
 - Hover over  `(blank)` and select edit 
 - Change  `(blank)` to  `No` , ` apply` and close facet
 - Repeat on each column{% endcapture %} {% include card.md header="Fill all blank cells in new columns with a value" text=text %}
-Each location now has a column for the variables,  `table`,  `play area`,  `universal access toilet`  and  `water`,  with a yes/no value.
+Each location now has a column for the variables,  `table`,  `play area`,  `universal access toilet`  and  `water`,  with a  `yes` or  `no`  value.
 
-The final step is to export specific variables from this tidy dataset to a .csv file which can be parsed by geo.json.
+The final step is to export specific variables from this tidy dataset to a .csv file which can be parsed (understood by) the geo.json tool used in the next lesson.
 
 {% capture text %}
 - Go to  `All` column  `>Edit Columns> Reorder Remove columns`
