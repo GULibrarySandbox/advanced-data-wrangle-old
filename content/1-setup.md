@@ -46,5 +46,5 @@ There is also a [Google Group](https://groups.google.com/forum/#!forum/openref
 
 ##### At Griffith University
 
-Help is available at Griffith [Hacky Hour & Library Researcher Support online drop-in](https://www.griffith.edu.au/library/research-publishing/online-drop-in-sessions) sessions, every Thursday between 2-3pm.
+Help is available from eResearch and Library specialists at Griffith University [online drop-in](https://www.griffith.edu.au/library/research-publishing/online-drop-in-sessions) sessions, every Thursday between 2-3pm.
 Or get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
