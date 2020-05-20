@@ -27,7 +27,7 @@ Let's open another instance of OpenRefine to explore the  `qpsactive_parkedmscam
   - `Camera_Street`  and  `Suburb_1`  in  `QPSTrafficCamerasClean`
   - `Crash_Street`  and `Suburb`  columns in  `QLDTrafficAccident_2018`
  
-These could be used as a key to match on.  A key is a unique, matching value in one column from each dataset.  However, we cannot match on one of these columns alone as there values are not unique, eg. there are common street names in multiple suburbs. To check this:
+These could be used as a key to match on.  A key is a unique, matching value in one column from each dataset.  However, we cannot match on one of these columns alone as the values wtihin are not unique, eg. there are common street names in multiple suburbs. To check this:
 
 - Go to `Camera_Street > Facet > Text Facet`{% endcapture %} 
 {% include card.md header="Find a key variable" text=text %}
