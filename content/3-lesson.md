@@ -6,7 +6,7 @@ nav: true
 
 --------
 
-We want to enhance the  `TrafficAccident_2018` project data by adding a new variable, to explore if traffic cameras are located in any of the same streets as accidents in 2018.  The  `qpsactive_parkedmscamera.csv`  dataset contains street locations of cameras, so could be a good match.
+The aim of this lesson is to enhance the  `TrafficAccident_2018` project data by adding a new variable, to explore if traffic cameras are located in any of the same streets as accidents in 2018.  The  `qpsactive_parkedmscamera.csv`  dataset contains street locations of cameras, so could be a good match.
 
 We need to identify a common value in each of the datasets that we can match on.  A key variable.  To do this we need to explore both datasets to see if a key or very similar variable is available that we can work with. 
 
