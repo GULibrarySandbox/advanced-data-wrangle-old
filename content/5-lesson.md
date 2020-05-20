@@ -50,7 +50,7 @@ The next step is to split the values so they can be moved to separate columns. T
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab) 
 
-(Below is an alternative method using a sequence of characters that define a search in GREL.  `Undo`  your steps to try this method){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
+(Below is an alternative method using a sequence of characters, or Regex, that define a search in GREL.  `Undo`  your steps to try this method){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
 
 {% capture text %}
 - Go to column  `Site features` > `Edit column> add column based on this column`
@@ -58,10 +58,13 @@ The next step is to split the values so they can be moved to separate columns. T
 - Click inside expression box, enter GREL expression:
     
     `if(value.contains("Universal access toilet"),"Yes",value).replace(/.*[^Yes].*/,"")`
+    This means...
+    - if(the value in the cell contains "Universal access toilet", replace it with "Yes" value), then replace (anything that is not "Yes" that is found one or more times in the cell, with "" ie. a blank)
+    
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse expression from  `history`  tab)
 
-This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions.
+This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions using Regex.
 {% endcapture %} {% include card.md header="Alternative method to add a new column based on split values" text=text %}
 
 Let's now change the (blank) cells a “no” value.
