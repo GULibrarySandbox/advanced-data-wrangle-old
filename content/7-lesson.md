@@ -9,8 +9,6 @@ nav: true
 
 - Cleaning data with OpenRefine by John Little [https://libjohn.github.io/openrefine/demonstration.html](https://libjohn.github.io/openrefine/index.html)
 
-- Fetching and parsing data from the Web with OpenRefine (Programming Historian lesson) by Evan Williamson [https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
-
 - Hands-On data visualization: interactive storytelling from spreadsheets to code, by Jack Dougherty [https://handsondataviz.org/index.html](https://handsondataviz.org/index.html)
 
 - GREL Cheat Sheet by code4libtoronto [https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf)
