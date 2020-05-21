@@ -20,6 +20,8 @@ The QLD Driver Reviver Stations open dataset provides address locations of place
 
 QLD traffic camera locations is one of a number of open datasets that identify the general location of traffic cameras across Queensland. 
 
+Please note each of the open datasets has had changes made for training purposes and should not be used for research.
+
 The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  
 
 {% capture text %}
