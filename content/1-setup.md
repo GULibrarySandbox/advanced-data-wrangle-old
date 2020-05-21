@@ -20,7 +20,7 @@ We will wrangle three datasets in this workshop, all obtained from Queensland Go
 
 - QLD traffic camera locations is one of a number of open datasets that identify the general location of traffic cameras across Queensland. 
 
-Each of the open datasets has had changes made for training purposes and should not be used for research.
+Each of the open datasets have been altered for training purposes. 
 
 The workshop datasets have been stored in [Griffith University's Research Storage Space](https://research-storage.griffith.edu.au/).  
 
