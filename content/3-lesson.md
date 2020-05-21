@@ -6,18 +6,18 @@ nav: true
 
 --------
 
-The aim of this lesson is to enhance the  `TrafficAccident_2018` project data by adding a new variable, to explore if traffic cameras are located in any of the same streets as accidents in 2018.  The  `qpsactive_parkedmscamera.csv`  dataset contains street locations of cameras, so could be a good match.
+The aim of this lesson is to enhance the  `TrafficAccident_2018` project data by adding a new variable, to explore if traffic cameras are located in any of the same streets as accidents in 2018.  The  `QPSTrafficCamerasClean.csv`  dataset contains street locations of cameras, so could be a good match.
 
 We need to identify a common value in each of the datasets that we can match on.  A key variable.  To do this we need to explore both datasets to see if a key or very similar variable is available that we can work with. 
 
-{% capture alert %} Note: The `qpsactive_parkedmscamera.csv`  dataset doesn’t provide geolocation, latitude (lat) or longitude (long) points. This maybe because the traffic camera sites are mobile and can move from one end of a road to another.  It is therefore not possible to match on lat or long.  
+{% capture alert %} Note: The `QPSTrafficCamerasClean.csv`  dataset doesn’t provide geolocation, latitude (lat) or longitude (long) points. This maybe because the traffic camera sites are mobile and can move from one end of a road to another.  It is therefore not possible to match on lat or long.  
 
 The original open dataset required cleaning to transform it to a useable format. Some `suburb name` observations contained multiple values such as `Brisbane/Spring Hill`, perhaps to indicate the street location was on the border of two suburbs.  
 
 In these cases, for the purpose of the training, the values have been modified to the first suburb listed so that there is only one value in a cell.{% endcapture %}
 {% include alert.md text=alert color="success" %}
 
-Let's open another instance of OpenRefine to explore the  `qpsactive_parkedmscamera.csv` dataset.  
+Let's open another instance of OpenRefine to explore the  `QPSTrafficCamerasClean.csv` dataset.  
 
 {% capture text %}
 - Add the url  `http://127.0.0.1:3333/`  to a new tab in your browser.  
@@ -27,7 +27,7 @@ Let's open another instance of OpenRefine to explore the  `qpsactive_parkedmscam
   - `Camera_Street`  and  `Suburb_1`  in  `QPSTrafficCamerasClean`
   - `Crash_Street`  and `Suburb`  columns in  `QLDTrafficAccident_2018`
  
-These could be used as a key to match on.  A key is a unique, matching value in one column from each dataset.  However, we cannot match on one of these columns alone as the values wtihin are not unique, eg. there are common street names in multiple suburbs. To check this:
+These could be used as a key to match on.  A key is a unique, matching value in one column from each dataset.  However, we cannot match on one of these columns alone as the values within are not unique, eg. there are common street names in multiple suburbs. To check this:
 
 - Go to `Camera_Street > Facet > Text Facet`{% endcapture %} 
 {% include card.md header="Find a key variable" text=text %}
