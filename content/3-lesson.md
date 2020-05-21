@@ -32,7 +32,7 @@ These could be used as a key to match on.  A key is a unique, matching value in 
 - Go to `Camera_Street > Facet > Text Facet`{% endcapture %} 
 {% include card.md header="Find a key variable" text=text %}
 
-One solution to the problem above is to match on a combination of values in both columns.  This is when it becomes useful to combine information from multiple columns (variables) into one column using a process called *concatenation*. 
+One solution to the problem above is to match on a combination of values in both columns.  This is when it becomes useful to combine information from multiple columns into one column using a process called *concatenation*. 
 
 This method allows you to combine the contents of two columns, and add a specific string to a column’s values, such as a common separator.
 
