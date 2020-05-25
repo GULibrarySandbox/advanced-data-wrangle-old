@@ -25,9 +25,15 @@ This task is helpful where there are multiple values in a cell that are not orga
 
 Let's first check if any rows have missing values.
 - Go to  `Site features`  column
-- `Facet> Customised Facet > Facet by blank` 
+- `Facet> Customised Facet > Facet by blank`
 
-There are no missing values but it appears the original spreadsheet has *hard* returns inside the cells. Remove these with:
+There are no missing values.
+{% endcapture %} {% include card.md header="Create project" text=text %}
+
+There are a couple of ways to create new columns and move the values to these. The first method requires some cleaning of the data, followed by a GREL command `value.split` with a common separator. 
+
+{% capture text %}
+It appears the original spreadsheet has *hard* returns inside the cells. Remove these with:
 
 - `Edit Cells> Common Transform  > Collapse consecutive whitespace` 
 
@@ -51,9 +57,11 @@ The next step is to split the values so they can be moved to separate columns.
 - Type new column name  `Play area`
 - Click inside expression box, delete  `value`  and type `"Yes"`
 - Preview and ok
-- Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab) 
+- Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
 
-(Below is an alternative method using a sequence of characters, or Regex, that define a search in GREL.  `Undo`  your steps to try this method){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
+Below is an alternative method using a sequence of characters, or Regex, that define a search in GREL. 
+
+`Undo`  your steps back to Step `0. Create Project` to try this method.
 
 {% capture text %}
 - Go to column  `Site features` > `Edit column> add column based on this column`
