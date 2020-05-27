@@ -83,6 +83,7 @@ See how this works below.
 
 {% include button.md text="Watch the steps above on this video" link="https://vimeo.com/422342110/15f6fa71c1" color="info" %}
 
+
 Let's now change the blank cells to a  `“No”`  value.
 {% capture text %}
 - Go to each new column and  `Facet > Text Facet`
