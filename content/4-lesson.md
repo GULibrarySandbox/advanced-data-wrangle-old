@@ -38,6 +38,8 @@ To look at an example, filter  `Camera_Street_Suburb`  by the term  `Anzac`.  Th
 
 This is one way to remove duplicates, see this advice from [Illinois University Library](https://guides.library.illinois.edu/openrefine/duplicates) for another.{% endcapture %} {% include card.md header="Remove duplicate rows" text=text %}
 
+{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/422326756/622764409f" color="info" %}
+
 Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `Camera_Street_Suburb`  from the `QPSTrafficCamerasClean`  dataset. We will do this using a GREL expression `cell.cross`. The  `cell.cross`  function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
 
 {% capture text %}
@@ -65,5 +67,5 @@ The image below shows the GREL cell.cross expression in action.
 Find more information on the  `cell.cross`  function [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname) and more GREL functions [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
 
 
-{% include button.md text="Watch video" link="   " color="info" %}
+{% include button.md text="Watch the GREL cell.cross activity on this video" link="https://vimeo.com/422324961/6cc1733109" color="info" %}
 
