@@ -62,6 +62,8 @@ The image below shows the creation of the  `Play area`  column using the method 
 
 {% include figure.html img="ORFacetSplit.JPG" alt="Custom Facet plus add a column" caption="Facet by GREL value.split & Add a column" width="100%" %}
 
+{% include button.md text="See how to perform the value.split function on this video" link="https://vimeo.com/423061477/90ba3be431 " color="info" %}
+ 
 -----
 
 Below is an alternative method using GREL and a language known as Regular Expression or Regex, which searches for patterns in strings.  
