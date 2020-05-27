@@ -66,7 +66,7 @@ The image below shows the GREL expression in action.
 
 {% include figure.html img="AdvGREL.jpg" alt="Add a column with values from two columns using GREL" caption="Advanced GREL" width="100%" %}
 
-{% include button.md text="watch this video to work through the activities" link="    " color="info" %}
+{% include button.md text="watch this video to work through the activity" link="https://vimeo.com/422323847/ae8b0c4414" color="info" %}
 
 ----
 
