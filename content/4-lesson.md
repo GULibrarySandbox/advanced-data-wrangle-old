@@ -42,7 +42,7 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 
 {% capture text %}
 - Go to  `QLDTrafficAccident_2018`  project
-- On  `Crash_Street_Suburb`  `>Edit Column>Add column based on this column>`
+- On  `Crash_Street_Suburb`  `> Edit Column> Add column based on this column>`
 - name the new Column  `Camera_Street`
 - enter this GREL expression:
 
@@ -57,7 +57,11 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 - Close both projects.
 
 We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.{% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
+
+The image below shows the GREL cell.cross expression in action. 
  
+{% include figure.html img="AORCellCross.JPG" alt="Add a column matching with a key id using GREL cell.cross" caption="Add a column matching with a key id using GREL cell.cross" width="100%" %}
+
 Find more information on the  `cell.cross`  function [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions#crosscell-c-string-projectname-string-columnname) and more GREL functions [here](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
 
 
