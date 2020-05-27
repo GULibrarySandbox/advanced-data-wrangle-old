@@ -58,11 +58,10 @@ The image below shows the creation of the  `Play area`  column using the method 
 
 {% include figure.html img="ORFacetSplit.JPG" alt="Custom Facet plus add a column" caption="Facet by GREL value.split & Add a column" width="100%" %}
 
-Below is an alternative method using a sequence of characters, known as Regular Expressions or Regex.  These define how to structure a search in GREL. 
-
-`Undo`  your steps back to Step `0. Create Project` to try this method.
+Below is an alternative method using GREL and a language known as Regular Expression or Regex, which searches for patterns in strings.  
 
 {% capture text %}
+- `Undo`  your steps back to Step `0. Create Project` to try this method.- 
 - Go to column  `Site features` > `Edit column> add column based on this column`
 - Type new column name  `Universal access toilet`
 - Click inside expression box, enter GREL expression:
@@ -77,6 +76,8 @@ Below is an alternative method using a sequence of characters, known as Regular 
 
 This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions using Regex.
 {% endcapture %} {% include card.md header="Alternative method to add a new column using GREL" text=text %}
+
+{% include figure.html img="ORRegex.JPG" alt="Using Regex" caption="Using Regex" width="100%" %}
 
 Let's now change the blank cells to a  `“No”`  value.
 {% capture text %}
