@@ -6,7 +6,7 @@ nav: true
 # Create the new variable
 
 ------
-Now we need to do the same process with  `QPSTrafficCamerasClean`  project data.
+The concatenation (join up) process is now required for  `QPSTrafficCamerasClean`  project data.
 
 {% capture text %}
 - Go to  `QPSTrafficCamerasClean`  project, open in another browser tab
@@ -14,7 +14,7 @@ Now we need to do the same process with  `QPSTrafficCamerasClean`  project data.
 - `Edit cells > Common transforms > Trim leading and trailing whitespace`
 - At  `Camera_Street`  column  `>Edit column > Add a new column based on this column`
 - Name it  `Camera_Street_Suburb`
-- Concatenate (join up) the values from  `Camera_Street_Suburb`  and  `Suburb`  columns
+- Join up the values from  `Camera_Street_Suburb`  and  `Suburb`  columns
 - At the GREL expression input box type the command:
   `value + ', ' + cells['Suburb 1'].value` 
 - Preview and OK.
