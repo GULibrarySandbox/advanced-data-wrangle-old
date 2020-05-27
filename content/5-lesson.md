@@ -59,6 +59,10 @@ The next step is to split the values so they can be moved to separate columns.
 - Preview and ok
 - Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
 
+The image below shows the GREL expression in action. 
+
+{% include figure.html img="***.jpg" alt="Add a column with values from two columns using GREL" caption="Advanced GREL" width="100%" %}
+
 Below is an alternative method using a sequence of characters, known as Regular Expressions or Regex.  These define how to structure a search in GREL. 
 
 `Undo`  your steps back to Step `0. Create Project` to try this method.
