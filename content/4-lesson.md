@@ -40,6 +40,8 @@ This is one way to remove duplicates, see this advice from [Illinois University 
 
 {% include button.md text="Watch the steps above on this video" link="https://vimeo.com/422326756/622764409f" color="info" %}
 
+------
+
 Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `Camera_Street_Suburb`  from the `QPSTrafficCamerasClean`  dataset. We will do this using a GREL expression `cell.cross`. The  `cell.cross`  function performs a cross or lookup between two columns in two datasets or the same dataset. It returns an array (list) of zero or more rows in the project i.e. matching against  `QPSTrafficCamerasClean`  for which the cells in their column i.e.  `Camera_Street_Suburb`  have the same content as cell  `Crash_Street_Suburb` . 
 
 {% capture text %}
