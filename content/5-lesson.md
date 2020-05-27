@@ -56,7 +56,7 @@ The next step is to split the values so they can be moved to separate columns.
 - Type new column name  `Play area`
 - Click inside expression box, delete  `value`  and type `"Yes"`
 - Preview and ok
-- Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab){% endcapture %} {% include card.md header="Add a new column based on split values" text=text %}
+- Repeat steps above for each of the items owned (can reuse GREL expression from  `history`  tab){% endcapture %} {% include card.md header="Add a new column using value.split" text=text %}
 
 The image below shows the creation of the  `Play area`  column using the method described above.
 
