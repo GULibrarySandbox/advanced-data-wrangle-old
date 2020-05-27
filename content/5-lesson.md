@@ -58,6 +58,9 @@ The image below shows the creation of the  `Play area`  column using the method 
 
 {% include figure.html img="ORFacetSplit.JPG" alt="Custom Facet plus add a column" caption="Facet by GREL value.split & Add a column" width="100%" %}
 
+{% include button.md text="Watch the steps above on this video" link="" color="info" %}
+
+
 Below is an alternative method using GREL and a language known as Regular Expression or Regex, which searches for patterns in strings.  
 
 {% capture text %}
@@ -103,4 +106,4 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 - Select Comma-separated value dataset
 - save file{% endcapture %} {% include card.md header="Export selected columns to .csv file" text=text %}
 
-{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/422342110/15f6fa71c1" color="info" %}
+
