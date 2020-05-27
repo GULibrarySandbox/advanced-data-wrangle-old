@@ -23,14 +23,14 @@ GeoJSON data must follow a structured format, and the file name may end with eit
 - Untick  `Show style properties`  and save
 - Save file as GEOJSON file into downloads.{% endcapture %} {% include card.md header="Map to GEOJSON" text=text %}
 
-{% include button.md text="Watch video" link="https://vimeo.com/412607607/08380e8150" color="info" %}
+{% include button.md text="Watch video" link="   " color="info" %}
 
 ----
 #### Display the map using Github
 
 We now need a website to display the map.  To do this we are going to upload our geoJSON file to the open source repository [Github](https://github.com/) that can host and share files, code and much more.
 
-Here is an example of an interative [map](https://github.com/stapletonsl/ClassData2019/blob/master/OzUnis.geojson) created using geoJSON and hosted by Github. Click on the points for information about the locations.
+Here is an example of an interactive [map](https://github.com/stapletonsl/ClassData2019/blob/master/OzUnis.geojson) created using geoJSON and hosted by Github. Click on the points for information about the locations.
 
 In this next activity learn how Github works and create a repository to host the map via Github's tutorial. The first step is to register for an account.
 
