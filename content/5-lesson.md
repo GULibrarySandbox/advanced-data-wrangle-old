@@ -83,7 +83,7 @@ Below is an alternative method using GREL and a language known as Regular Expres
 - Repeat steps above for each of the items owned (can reuse expression from  `history`  tab)
 
 This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions using Regex.
-{% endcapture %} {% include card.md header="Alternative method to add a new column using GREL" text=text %}
+{% endcapture %} {% include card.md header="Alternative method - add a new column using GREL & Regex" text=text %}
 
 See how this works below.
 
