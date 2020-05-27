@@ -77,6 +77,8 @@ Below is an alternative method using GREL and a language known as Regular Expres
 This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions using Regex.
 {% endcapture %} {% include card.md header="Alternative method to add a new column using GREL" text=text %}
 
+See how this works below.
+
 {% include figure.html img="ORRegex.JPG" alt="Using Regex" caption="Using Regex" width="100%" %}
 
 Let's now change the blank cells to a  `“No”`  value.
