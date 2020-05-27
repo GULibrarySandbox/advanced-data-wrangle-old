@@ -10,12 +10,8 @@ The aim of this lesson is to enhance the  `TrafficAccident_2018` project data by
 
 We need to identify a common value in each of the datasets that we can match on.  A key variable.  To do this we need to explore both datasets to see if a key or very similar variable is available that we can work with. 
 
-{% capture alert %} Note: The `QPSTrafficCamerasClean.csv`  dataset doesn’t provide geolocation, latitude (lat) or longitude (long) points. This maybe because the traffic camera sites are mobile and can move from one end of a road to another.  It is therefore not possible to match on lat or long.  
-
-The original open dataset required cleaning to transform it to a useable format. Some `suburb name` observations contained multiple values such as `Brisbane/Spring Hill`, perhaps to indicate the street location was on the border of two suburbs.  
-
-In these cases, for the purpose of the training, the values have been modified to the first suburb listed so that there is only one value in a cell.{% endcapture %}
-{% include alert.md text=alert color="success" %}
+{% capture alert %} Note: The original open dataset used to create `QPSTrafficCamerasClean.csv` required cleaning to transform it to a useable format. Some `suburb name` observations contained multiple values such as `Brisbane/Spring Hill`, perhaps to indicate the street location was on the border of two suburbs.  For the purpose of the training, the values have been modified to the first suburb listed so that there is only one value in a cell.{% endcapture %}
+{% include alert.md text=alert color="info" %}
 
 Let's open another instance of OpenRefine to explore the  `QPSTrafficCamerasClean.csv` dataset.  
 
