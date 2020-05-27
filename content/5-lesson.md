@@ -78,7 +78,7 @@ Below is an alternative method using a sequence of characters, known as Regular 
 This great [GREL cheat sheet](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf) from [code4lib Toronto](https://code4libtoronto.github.io/) has more details on building expressions using Regex.
 {% endcapture %} {% include card.md header="Alternative method to add a new column using GREL" text=text %}
 
-Let's now change the (blank) cells a “no” value.
+Let's now change the blank cells to a  `“No”`  value.
 {% capture text %}
 - Go to each new column and  `Facet > Text Facet`
 - Hover over  `(blank)` and select edit 
