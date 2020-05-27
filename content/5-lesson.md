@@ -42,6 +42,10 @@ We want to perform a facet by splitting the value, using a common separator.  Th
 - `Edit Cells > Transform`  and 
 - GREL expression:  `value.replace("* ","*").replace(" *","*")`{% endcapture %} {% include card.md header="Tidy the 'Site features' column" text=text %}
 
+{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/423056014/f05cff7412" color="info" %}
+
+-----
+
 The next step is to split the values so they can be moved to separate columns. 
 
 {% capture text %}
@@ -58,8 +62,7 @@ The image below shows the creation of the  `Play area`  column using the method 
 
 {% include figure.html img="ORFacetSplit.JPG" alt="Custom Facet plus add a column" caption="Facet by GREL value.split & Add a column" width="100%" %}
 
-{% include button.md text="Watch the steps above on this video" link="" color="info" %}
-
+-----
 
 Below is an alternative method using GREL and a language known as Regular Expression or Regex, which searches for patterns in strings.  
 
