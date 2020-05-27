@@ -81,6 +81,8 @@ See how this works below.
 
 {% include figure.html img="ORRegex.JPG" alt="Using Regex" caption="Using Regex" width="100%" %}
 
+{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/422342110/15f6fa71c1" color="info" %}
+
 Let's now change the blank cells to a  `“No”`  value.
 {% capture text %}
 - Go to each new column and  `Facet > Text Facet`
@@ -100,4 +102,4 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 - Select Comma-separated value dataset
 - save file{% endcapture %} {% include card.md header="Export selected columns to .csv file" text=text %}
 
-{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/412605933/d8be2a9d15" color="info" %}
+{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/422342110/15f6fa71c1" color="info" %}
