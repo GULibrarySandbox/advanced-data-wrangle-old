@@ -21,11 +21,11 @@ nav: true
 
 - External research data guide: [https://libraryguides.griffith.edu.au/finddata](https://libraryguides.griffith.edu.au/finddata)
 
-- geojson.io tool: [geojson.io](geojson.io)
+- geojson.io tool: [geojson.io](http://geojson.io/)
 
 - Github software development platform: [https://github.com/](https://github.com/)
 
-- Griffith University Research Data Storage: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage)
+- Griffith University Research Data Storage: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://research-storage.griffith.edu.au/)
 
 - OpenRefine tool: [https://openrefine.org/](https://openrefine.org/)
 
