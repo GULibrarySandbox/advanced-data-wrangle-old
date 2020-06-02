@@ -45,4 +45,10 @@ In this next activity learn how Github works and create a repository to host the
 - Name it  `Driver Reviver Stations`
 - You have just published in interactive map with data!{% endcapture %} {% include card.md header="Upload map to Github" text=text %}
 
-{% include figure.html img="ADORGitUpload.JPG" alt="Upload a file to Github repo" caption="Upload the map.Geojson file to your Hello World repository in Github" width="100%" %}
+See the steps illustrated below.
+
+
+{% include figure.html img="ADORGithub.JPG" alt="Upload a file to Github repo" caption="Upload a file to Github" width="100%" %}
+
+
+{% include figure.html img="ADORGitUpload.JPG" alt="Upload a file to Github repo" caption="Select the map.Geojson file" width="100%" %}
