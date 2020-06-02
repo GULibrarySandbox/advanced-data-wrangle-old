@@ -25,7 +25,7 @@ nav: true
 
 - Github software development platform: [https://github.com/](https://github.com/)
 
-- Griffith University Research Data Storage: [https://www.griffith.edu.au/eresearch-services/research-data-management-and-storage](https://research-storage.griffith.edu.au/)
+- Griffith University Research Data Storage: [https://research-storage.griffith.edu.au/](https://research-storage.griffith.edu.au/)
 
 - OpenRefine tool: [https://openrefine.org/](https://openrefine.org/)
 
