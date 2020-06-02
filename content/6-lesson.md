@@ -21,9 +21,9 @@ GeoJSON data must follow a structured format, and the file name may end with eit
 - Look at features – change  `file view`  from  `JSON`  to  `table`  to see the data structured for the human eye. 
 - Click on a  `point`  to show data 
 - Untick  `Show style properties`  and save
-- Save file as GEOJSON file into downloads.{% endcapture %} {% include card.md header="Map to GEOJSON" text=text %}
+- Save file as GEOJSON file into downloads.{% endcapture %} {% include card.md header="Map data with GEOJSON" text=text %}
 
-{% include button.md text="Watch video" link="https://vimeo.com/425012075/174f63e945" color="info" %}
+{% include button.md text="See how to map the data with GeoJSON.io in this video" link="https://vimeo.com/425012075/174f63e945" color="info" %}
 
 ----
 #### Display the map using Github
