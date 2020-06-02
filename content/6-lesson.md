@@ -23,7 +23,7 @@ GeoJSON data must follow a structured format, and the file name may end with eit
 - Untick  `Show style properties`  and save
 - Save file as GEOJSON file into downloads.{% endcapture %} {% include card.md header="Map to GEOJSON" text=text %}
 
-{% include button.md text="Watch video" link="   " color="info" %}
+{% include button.md text="Watch video" link="https://vimeo.com/425012075/174f63e945" color="info" %}
 
 ----
 #### Display the map using Github
