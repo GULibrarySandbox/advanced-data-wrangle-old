@@ -45,6 +45,7 @@ In this next activity learn how Github works and create a repository to host the
 - Name it  `Driver Reviver Stations`
 - You have just published in interactive map with data!{% endcapture %} {% include card.md header="Upload map to Github" text=text %}
 
+
 See the steps illustrated below.
 
 
