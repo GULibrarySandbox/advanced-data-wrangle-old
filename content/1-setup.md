@@ -12,7 +12,7 @@ Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrar
 -----
 #### About the data
 
-We will wrangle three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](data.qld.gov.au). 
+We will wrangle three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](https://www.data.qld.gov.au/). 
 
 - The *QLD Traffic Accident* open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. 
 
@@ -48,6 +48,4 @@ There is also a [Google Group](https://groups.google.com/forum/#!forum/openref
 
 ##### At Griffith University
 
-Help is available from eResearch and Library specialists at Griffith University [online drop-in](https://www.griffith.edu.au/library/research-publishing/online-drop-in-sessions) sessions, every Thursday between 2-3pm.
-
-Or get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
+Help is available from eResearch and Library specialists at Griffith University.  Get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
