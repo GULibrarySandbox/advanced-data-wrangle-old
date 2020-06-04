@@ -66,7 +66,7 @@ The image below shows the creation of the  `Play area`  column using the method 
  
 -----
 
-Below is an alternative method using GREL and a language known as Regular Expression or Regex, which searches for patterns in strings.  
+Below is an alternative method using GREL and a language known as Regular Expression or [Regex](https://en.wikipedia.org/wiki/Regular_expression), which searches for patterns in strings.  
 
 {% capture text %}
 - `Undo`  your steps back to Step `0. Create Project` to try this method.- 
