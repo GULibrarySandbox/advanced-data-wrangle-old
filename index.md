@@ -5,7 +5,7 @@ layout: default
 
 ## Advanced Data Wrangling with OpenRefine
 
-{% include figure.html img="MapAus.JPG" alt="intro image here" caption="Image of map.Geojson file using OpenStreetMap & Mapbox hosted in Github" width="75%" %}
+{% include figure.html img="MapAus.JPG" alt="intro image here" caption="Image of map created using http://geojson.io/ and hosted in Github" width="75%" %}
 
 This online self-paced workshop teaches advanced data wrangling skills including combining datasets, geolocating data, and “what if” exploration using OpenRefine. 
 
