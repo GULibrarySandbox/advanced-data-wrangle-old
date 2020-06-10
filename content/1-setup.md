@@ -12,9 +12,9 @@ Go to [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrar
 -----
 #### About the data
 
-We will wrangle three datasets in this workshop, all obtained from Queensland Government's open data portal [data.qld.gov.au](https://www.data.qld.gov.au/). 
+The datasets used in this workshop were all downloaded from the Queensland Government's open data portal [data.qld.gov.au](https://www.data.qld.gov.au/) © 2019 The State of Queensland, licensed under a Creative Commons Attribution 4.0 International licence, CC BY 4.0.. 
 
-- The *QLD Traffic Accident* open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations.  The data used in this workshop is a smaller four-year subset and has had changes made for training purposes. 
+- The *QLD Traffic Accident* open dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations. 
 
 - The *QLD Driver Reviver Stations* open dataset provides address locations of places to stop and refresh when travelling on Queensland roads. 
 
