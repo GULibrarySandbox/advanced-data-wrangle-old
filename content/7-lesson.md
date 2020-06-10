@@ -2,7 +2,7 @@
 title: Resources
 nav: true
 ---
-# Resources
+# References
 ----
 
 #### References
@@ -17,9 +17,7 @@ nav: true
 
 - Tidy Data article by Hadley Wickham: [https://www.jstatsoft.org/article/view/v059i10](https://www.jstatsoft.org/article/view/v059i10)
 
-#### Resources
-
-- External research data guide: [https://libraryguides.griffith.edu.au/finddata](https://libraryguides.griffith.edu.au/finddata)
+#### Resources used
 
 - geojson.io tool: [geojson.io](http://geojson.io/)
 
@@ -27,6 +25,10 @@ nav: true
 
 - Griffith University Research Data Storage: [https://research-storage.griffith.edu.au/](https://research-storage.griffith.edu.au/)
 
+- MapBox: [https://www.mapbox.com/](https://www.mapbox.com/) (used with Github)
+
 - OpenRefine tool: [https://openrefine.org/](https://openrefine.org/)
+
+- OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.org/) (used within Github)
 
 - Queensland Government Open Data Portal: [https://www.data.qld.gov.au/](https://www.data.qld.gov.au/)
