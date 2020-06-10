@@ -25,10 +25,10 @@ nav: true
 
 - Griffith University Research Data Storage: [https://research-storage.griffith.edu.au/](https://research-storage.griffith.edu.au/)
 
-- MapBox: [https://www.mapbox.com/](https://www.mapbox.com/) (used with Github)
+- MapBox: [https://www.mapbox.com/](https://www.mapbox.com/) (within Github)
 
 - OpenRefine tool: [https://openrefine.org/](https://openrefine.org/)
 
-- OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.org/) (used within Github)
+- OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.org/) (within Github)
 
 - Queensland Government Open Data Portal: [https://www.data.qld.gov.au/](https://www.data.qld.gov.au/)
