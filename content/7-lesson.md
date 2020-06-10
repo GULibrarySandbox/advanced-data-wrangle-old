@@ -19,7 +19,7 @@ nav: true
 
 #### Resources used
 
-- geojson.io tool: [geojson.io](http://geojson.io/) created by MapBox [https://www.mapbox.com/](https://www.mapbox.com/)
+- geojson.io tool: [geojson.io](http://geojson.io/)
 
 - Github software development platform: [https://github.com/](https://github.com/)
 
