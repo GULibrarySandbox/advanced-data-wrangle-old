@@ -2,16 +2,18 @@
 title: Map
 nav: true
 ---
-# Visualise the data
+# Map the data
 ----
-#### Map the data using GeoJSON
+#### Create an interactive map of the data using geojson.io
 
-Now for the next exciting step, to map the  `Driver Reviver`  data via latitude and longitude points.  You can use any spreadsheet tool to prepare a list of coordinate points (known as features).   
+Now for the next exciting step, to map the  `Driver Reviver`  data via latitude and longitude points.  You can use any spreadsheet tool to prepare a list of coordinate points.   
 
 {% capture text %}
 GeoJSON is popular, open format for map data, and works across many tools.  A GitHub repository can automatically display any GeoJSON files in a map view using [Open Street Map](https://www.openstreetmap.org).
 
-GeoJSON data must follow a structured format, and the file name may end with either .geojson or .json. The GeoJSON structured format orders coordinates in longitude-latitude format, the same as X-Y coordinates in mathematics. [(Dougherty, 2017)](https://datavizforall.org/convert-geojson.html){% endcapture %}
+GeoJSON data must follow a structured format, and the file name may end with either .geojson or .json. The GeoJSON structured format orders coordinates in longitude-latitude format, the same as X-Y coordinates in mathematics. [(Dougherty, 2017)](https://datavizforall.org/convert-geojson.html)
+
+We will create a map using [geojson.io](http://geojson.io), an open source tool to make, change and publish maps.{% endcapture %}
 {% include alert.md text=text color=info %}
 
 {% capture text %}
