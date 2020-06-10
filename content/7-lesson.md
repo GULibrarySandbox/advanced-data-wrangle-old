@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: References
 nav: true
 ---
 # References
@@ -19,16 +19,14 @@ nav: true
 
 #### Resources used
 
-- geojson.io tool: [geojson.io](http://geojson.io/)
+- geojson.io tool: [geojson.io](http://geojson.io/) created by MapBox [https://www.mapbox.com/](https://www.mapbox.com/)
 
 - Github software development platform: [https://github.com/](https://github.com/)
 
 - Griffith University Research Data Storage: [https://research-storage.griffith.edu.au/](https://research-storage.griffith.edu.au/)
 
-- MapBox: [https://www.mapbox.com/](https://www.mapbox.com/) (within Github)
-
 - OpenRefine tool: [https://openrefine.org/](https://openrefine.org/)
 
-- OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.org/) (within Github)
+- OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 
 - Queensland Government Open Data Portal: [https://www.data.qld.gov.au/](https://www.data.qld.gov.au/)
