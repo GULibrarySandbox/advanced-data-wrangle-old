@@ -7,7 +7,7 @@ layout: default
 
 {% include figure.html img="MapAus.JPG" alt="intro image here" caption="Image of map created using http://geojson.io/ and hosted by Github. 
 
-© Mapbox, © OpenStreetMap,CC BY-SA, © 2020 Github Inc." width="75%" %}
+© Mapbox, © OpenStreetMap,CC BY-SA, © 2020 Github Inc." width="100%" %}
 
 This online self-paced workshop teaches advanced data wrangling skills including combining datasets, geolocating data, and “what if” exploration using OpenRefine. 
 
