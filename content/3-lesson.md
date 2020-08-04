@@ -30,6 +30,7 @@ These could be used as a key to match on.  A key is a unique, matching value in 
 
 {% include button.md text="watch this video to work through the activity" link="https://vimeo.com/444437525/fa7a7e88d5" color="info" %}
 
+
 One solution to the problem above is to match on a combination of values in both columns.  This is when it becomes useful to combine information from multiple columns into one column using a process called *concatenation*. 
 
 This method allows you to combine the contents of two columns, and add a specific string to a column’s values, such as a common separator.
