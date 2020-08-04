@@ -58,4 +58,4 @@ Now let's remove all years apart from `2018`
 The dataset now has a sample of 1068 locations all within the Southern local police region.{% endcapture %}
 {% include card.md header="Limit the dataset" text=text %}
 
-{% include button.md text="Watch the steps above on this video" link=" " color="info" %}
+{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/444445583/0f039449e1" color="info" %}
