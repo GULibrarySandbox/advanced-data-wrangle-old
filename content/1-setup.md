@@ -27,9 +27,9 @@ The workshop datasets have been stored in [Griffith University's Research Storag
 {% capture text %}
 Download each dataset from the links below:
 
-1. `QLDDriverReviverStations.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/UMsrDiZlyHRyFpr)
-2. `QLDTrafficAccidentCleanData_2014_2018.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/kITNLGNOnQxNtxB)
-3. `QPSTrafficCamerasClean.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/MNzgOVpVb0d0W5u)
+1. `QLDDriverReviverStations.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/i0Chv6MqCPdMMUi)
+2. `QLDTrafficAccidentCleanData_2014_2018.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/6dtA79pHw8FdTiw)
+3. `QPSTrafficCamerasClean.csv` [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/g8CkUGqtaN6JuVh)
 
 to your `Downloads` folder.{% endcapture %}
 {% include card.md header="Download datasets" text=text %}
