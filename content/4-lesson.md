@@ -10,8 +10,6 @@ The concatenation (join up) process is now required for  `QPSTrafficCamerasClean
 
 {% capture text %}
 - Go to  `QPSTrafficCamerasClean`  project, open in another browser tab
-- Perform a  `whitespace`  trim on *both*  `Camera_Street`  and  `Suburb_1`  columns via  
-- `Edit cells > Common transforms > Trim leading and trailing whitespace`
 - At  `Camera_Street`  column  `>Edit column > Add a new column based on this column`
 - Name it  `Camera_Street_Suburb`
 - Join up the values from  `Camera_Street_Suburb`  and  `Suburb`  columns
