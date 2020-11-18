@@ -50,5 +50,7 @@ There is also a [Google Group](https://groups.google.com/forum/#!forum/openref
 
 Help is available from eResearch and Library specialists at Griffith University.  Get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
 
-<p style="text-align: center;">[<-- BACK](https://griffithunilibrary.github.io/Advanced-data-wrangle/)   | 
-[NEXT -->](https://griffithunilibrary.github.io/Advanced-data-wrangle/content/2-lesson.html)</p>
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/2-lesson.html">NEXT --></a>
+</p>
