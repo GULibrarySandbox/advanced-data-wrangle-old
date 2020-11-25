@@ -112,4 +112,11 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 - Select Comma-separated value dataset
 - save file{% endcapture %} {% include card.md header="Export selected columns to .csv file" text=text %}
 
+----
+
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/4-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/6-lesson.html">NEXT --></a>
+</p>
+
 
