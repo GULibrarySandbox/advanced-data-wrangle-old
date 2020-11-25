@@ -69,3 +69,9 @@ Find more information on the  `cell.cross`  function [here](https://github.com/O
 
 {% include button.md text="Watch the GREL cell.cross activity on this video" link="https://vimeo.com/422324961/6cc1733109" color="info" %}
 
+----
+
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/3-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/5-lesson.html">NEXT --></a>
+</p>
