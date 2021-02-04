@@ -20,7 +20,7 @@ The concatenation (join up) process is now required for  `QPSTrafficCamerasClean
 
 At present there are duplicates in the new  `Column Camera_Street_Suburb`,  probably due to traffic cameras being placed in multiple locations on long roads in the same suburb (or maybe other reasons, we don’t know of….).
 
-We need to deduplicate this key variable in  `QPSTrafficCamerasClean`  so that it contains only unique values to match with the values in the `QLDTrafficAccident_2018` project.  As the 'researcher' you want to identify if there were traffic cameras anywhere on the length of the road in that suburb, so it doesn’t matter if there was more than one possible location.  
+We need to deduplicate this key variable in  `QPSTrafficCamerasClean`  so that it contains only unique values to match with the values in the `QLDTrafficAccident_2018` project.  In the analysis we want to identify if there were traffic cameras anywhere on the length of specific roads in specific suburbs, so it doesn’t matter if there was more than one possible location on the road.  
 
 To look at an example, filter  `Camera_Street_Suburb`  by the term  `Anzac`.  The suburb Kippa-Ring has two cameras listed in Anzac Avenue.
 
