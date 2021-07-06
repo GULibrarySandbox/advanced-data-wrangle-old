@@ -58,6 +58,7 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 - `Sort`  the new column  `Camera_Street`  to view the records that have data for this new variable.
 
 **Extra**
+
 Let's now change the results of the cell.cross results from the name of the Camera_Street value to a boolean value of "Yes".
 - Select the new column, in this case, `Camera_Street` and `Edit Cells > Transform >`
 - GREL Expression:
