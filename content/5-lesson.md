@@ -114,7 +114,10 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 
 {% capture text %}
 Joining up columns is straightforward if the values within the rows are unique.  
-In this instance the values were not unique,  all were `Yes` or `No`.  Someone asked about this in a class, so I experimented.  
+
+In this instance the values were not unique,  all were `Yes` or `No`.  
+
+Someone asked about this in a class, so I experimented.  
  
 This is the process and expression that was most successful.
 - Select the column, in this case, `Play area` and `Edit Column > Add a column based on this column >`
@@ -134,10 +137,15 @@ It also places a separator between each result.  This results in a number of ext
 - GREL Expression:
    `value.replace(/^;/,"").replace(/; $/,"").replace(/^ ;/,"").replace(/^ ;/,"").trim()`
    
-This GREL Regex removes `/^; /` (`;` at the front of a cell) `/ ;$/`  (`;` at the end of a cell) and removes subsequent appearances.  
-I added the extra `.replaces` previewing as I went to see what it removed.  The final `.trim` removes any remaining leading or trailing whitespace.
+This means remove `//`, `;` from the front of a cell `^` and from the end of a cell `$` and removes subsequent appearances.  
 
-{% endcapture %} {% include card.md header="But wait....there's more...Reverse Engineering the Site Features wrangling work" text=text %}
+I added the extra `.replaces` previewing as I went to see what it removed.  
+
+The final `.trim` removes any remaining leading or trailing whitespace.
+
+{% endcapture %} {% include card.md header="But wait....there's more...
+
+Reverse Engineering the Site Features wrangling work" text=text %}
 ----
 
 <p align="center">
