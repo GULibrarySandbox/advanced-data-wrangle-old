@@ -137,7 +137,7 @@ It also places a separator between each result.  This results in a number of ext
 - GREL Expression:
    `value.replace(/^;/,"").replace(/; $/,"").replace(/^ ;/,"").replace(/^ ;/,"").trim()`
    
-This means remove `//`, `;` from the front of a cell `^` and from the end of a cell `$` and removes subsequent appearances.  
+This Regrex expression inside `//` means remove `;` from the front of a cell `^` and from the end of a cell `$` and removes subsequent appearances.  
 
 I added the extra `.replaces` previewing as I went to see what it removed.  
 
