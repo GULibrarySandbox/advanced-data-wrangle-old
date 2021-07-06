@@ -113,22 +113,21 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 - save file{% endcapture %} {% include card.md header="Export selected columns to .csv file" text=text %}
 
 {% capture text %}
-**Extra: Reverse Engineering the Site Features wrangling work**
-
- Joining up columns is straightforward if the values within the rows are unique.  In this instance the values were not unique,  all were Yes or No.  Someone asked about this in a class, so I experimented.  
+Joining up columns is straightforward if the values within the rows are unique.  
+In this instance the values were not unique,  all were `Yes` or `No`.  Someone asked about this in a class, so I experimented.  
  
- This is the process and expression that was most successful.
- - Select the column, in this case, `Play area` and `Edit Column > Add a column based on this column >`
- - Name column `Site Features`
- - GREL Expression:
+This is the process and expression that was most successful.
+- Select the column, in this case, `Play area` and `Edit Column > Add a column based on this column >`
+- Name column `Site Features`
+- GREL Expression:
 
   `value.replace("Yes","Play area").replace("No","") + " ; " + cells["Table"].value.replace("Yes","Table").replace("No","") + " ; " + cells["Water"].value.replace("Yes","Water").replace("No","") + " ; " + cells["Universal access toilet"].value.replace("Yes","Universal access toilet").replace("No","")`
  
- This replaces the `Yes` values with a `named value` relevant to the column it is within and replaces a `No` value with nothing.  
+This replaces the `Yes` values with a `named value` relevant to the column it is within and replaces a `No` value with nothing.  
  
- It adds values from additional columns with the `+ cells` and does the same value replace with each.  
+It adds values from additional columns with the `+ cells` and does the same value replace with each.  
  
- It also places a separator between each result.  This results in a number of extra `;` separators however, due to some empty `""` values.  These can be removed in the new column with:
+It also places a separator between each result.  This results in a number of extra `;` separators however, due to some empty `""` values.  These can be removed in the new column with:
  
 - Select `Site Features` column
 - `Edit cells > Transform`
@@ -138,7 +137,7 @@ The final step is to export specific variables from this tidy dataset to a .csv 
 This GREL Regex removes `/^; /` (`;` at the front of a cell) `/ ;$/`  (`;` at the end of a cell) and removes subsequent appearances.  
 I added the extra `.replaces` previewing as I went to see what it removed.  The final `.trim` removes any remaining leading or trailing whitespace.
 
-{% endcapture %} {% include card.md header="But wait....there's more..." text=text %}
+{% endcapture %} {% include card.md header="But wait....there's more...Reverse Engineering the Site Features wrangling work" text=text %}
 ----
 
 <p align="center">
