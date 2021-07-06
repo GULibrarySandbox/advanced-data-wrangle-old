@@ -68,7 +68,7 @@ Let's now change the results of the cell.cross results from the name of the Came
 - `Sort` `Camera_Street` again to view changes to the records.
 - Close both projects.
 
-We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.{% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
+We could have added the data from the  `Camera_Street_Suburb` column using the same steps above.{% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
 
 The image below shows the GREL cell.cross expression in action. 
  
