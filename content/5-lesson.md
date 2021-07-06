@@ -145,7 +145,7 @@ The final `.trim` removes any remaining leading or trailing whitespace.
 
 {% endcapture %} {% include card.md header="But wait....there's more...
 
-Reverse Engineering the Site Features wrangling work" text=text %}
+reverse engineer the Site Features wrangling work" text=text %}
 ----
 
 <p align="center">
