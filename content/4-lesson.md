@@ -56,6 +56,15 @@ Now we can extend the dataset `QLDTrafficAccident_2018`  with a new variable  `C
 
 - 251 rows of traffic accident observations now have a new variable & value added of a camera located in the same street.
 - `Sort`  the new column  `Camera_Street`  to view the records that have data for this new variable.
+
+**Extra**
+Let's now change the results of the cell.cross results from the name of the Camera_Street value to a boolean value of "Yes".
+- Select the new column, in this case, Camera Street and Edit Cells > Transform >
+- GREL Expression:
+
+    `if(value.contains(/./),"yes",value)`
+  - This means if the value contains (/./) (any character found in the cell), replace it with "Yes" value.
+
 - Close both projects.
 
 We could have added the data from the  `Camera_Street_Suburb column` using the same steps above.{% endcapture %}{% include card.md header="Match a key variable from two datasets & add a variable using GREL cell.cross" text=text %}
