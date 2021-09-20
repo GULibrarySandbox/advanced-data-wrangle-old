@@ -135,7 +135,7 @@ It also places a separator between each result.  This results in a number of ext
 - Select `Site Features` column
 - `Edit cells > Transform`
 - GREL Expression:
-   `value.replace(/^;/,"").replace(/; $/,"").replace(/^ ;/,"").replace(/^ ;/,"").trim()`
+   `value.replace(/^ ;/,"").replace(/; $/,"").replace(/^ ;/,"").replace(/^ ;/,"").trim()`
    
 This Regrex expression inside `//` means remove `;` from the front of a cell `^` and from the end of a cell `$` and removes subsequent appearances.  
 
