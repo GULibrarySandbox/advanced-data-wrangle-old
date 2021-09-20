@@ -135,11 +135,9 @@ It also places a separator between each result.  This results in a number of ext
 - Select `Site Features` column
 - `Edit cells > Transform`
 - GREL Expression:
-   `value.replace(/^ ;/,"").replace(/; $/,"").replace(/^ ;/,"").replace(/^ ;/,"").trim()`
+   `value.replace(/^\W*/,"").replace(/\W*$/,"").trim()`
    
-This Regrex expression inside `//` means remove `;` from the front of a cell `^` and from the end of a cell `$` and removes subsequent appearances.  
-
-I added the extra `.replaces` previewing as I went to see what it removed.  
+This Regrex expression inside `//` means remove from the front of a cell `^`  any non word `\W` found 0 or more times `*` and replace it with nothing `,""` , then remove from the end of a cell `$` any non word `\W` found 0 or more times `*` and replace with nothing `,''`.  
 
 The final `.trim` removes any remaining leading or trailing whitespace.
 
