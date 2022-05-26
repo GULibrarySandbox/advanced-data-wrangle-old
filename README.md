@@ -1,5 +1,5 @@
 # Advanced Data Wrangling with OpenRefine
-Self-paced [online workshop](https://griffithunilibrary.github.io/Advanced-data-wrangle/) developed by [Griffith University Library](https://www.griffith.edu.au/library).
+A self-paced [online workshop](https://griffithunilibrary.github.io/Advanced-data-wrangle/) developed by staff at [Griffith University Library](https://www.griffith.edu.au/library).
 
 This online self-paced workshop teaches advanced data wrangling skills including combining datasets, geolocating data, and “what if” exploration using [OpenRefine](https://openrefine.org/). Prior experience using OpenRefine, or completion of the [Introduction to Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/) workshop is highly recommended. 
 
@@ -15,3 +15,5 @@ All materials in this lesson are licenced  [CC BY](https://creativecommons.org/l
 [Workshop-template-b](https://github.com/evanwill/workshop-template-b) by [evanwill](https://github.com/evanwill) is built using [Jekyll](https://jekyllrb.com/) on [GitHub Pages](https://pages.github.com/). The site is styled using Bootstrap with FontAwesome icons.
 
 Content by [stapletonsl](https://github.com/stapletonsl).
+
+Griffith University - CRICOS Provider Number 00233E.
