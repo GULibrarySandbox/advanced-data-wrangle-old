@@ -20,7 +20,7 @@ pub_year: 2020
 github_username: stapletonsl
 
 # add the full url for the github repository
-repo: "https://github.com/GriffithUniLibrary/Advanced-data-wrangle"
+repo: "https://github.com/GriffithUniLibrary/advanced-data-wrangle"
 
 # site urls
 # add the url for the domain,
@@ -28,7 +28,7 @@ repo: "https://github.com/GriffithUniLibrary/Advanced-data-wrangle"
 url: https://GriffithUniLibrary.github.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /Advanced-data-wrangle/
+baseurl: /advanced-data-wrangle/
 # add search box to footer?
 search: true
 
