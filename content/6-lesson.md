@@ -56,9 +56,12 @@ See the steps illustrated below.
 
 {% include figure.html img="ADORGitUpload.JPG" alt="Upload a file to Github repo" caption="Select the map.Geojson file" width="100%" %}
 
+
+**Congratulations! You did it!**
+
 ----
 
-### Was this tutorial helpful? Let us know.
+#### Was this tutorial helpful? Let us know.
 
 {% include button.md text="Complete this quick survey" link= "https://prodsurvey.rcs.griffith.edu.au/prodls200/index.php/589544?FeedbackSource=OpenRefineAdvancedGitHubpages&Discipline=Research&Client=&newtest=Y" color="info" %}
 
@@ -66,6 +69,6 @@ See the steps illustrated below.
 ----
 
 <p align="center">
-  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/5-lesson.html"><-- BACK</a> |
-  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/7-lesson.html">NEXT --></a>
+  <a href="https://griffithunilibrary.github.io/advanced-data-wrangle/content/5-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/advanced-data-wrangle/content/7-lesson.html">NEXT --></a>
 </p>
