@@ -64,8 +64,7 @@ See the steps illustrated below.
 
 ##### Was this tutorial helpful? Let us know.
 
-{% include button.md text="Complete this quick survey" link= "https://prodsurvey.rcs.griffith.edu.au/prodls200/index.php/589544?FeedbackSource=OpenRefineAdvancedGitHubpages&Discipline=Research&Client=&newtest=Y" color="info" %}
-
+{% include button.md text="Complete this quick survey" link= "https://prodsurvey.rcs.griffith.edu.au/prodls200/index.php/589544?FeedbackSource=DataVisBasicsOnlineGitPages&Discipline=Research&Client=&newtest=Y" color="info" %}
 
 
 ----
