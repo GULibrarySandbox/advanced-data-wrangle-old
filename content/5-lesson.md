@@ -147,8 +147,8 @@ reverse engineer the Site Features wrangling work" text=text %}
 ----
 
 <p align="center">
-  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/4-lesson.html"><-- BACK</a> |
-  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/6-lesson.html">NEXT --></a>
+  <a href="https://griffithunilibrary.github.io/advanced-data-wrangle/content/4-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/advanced-data-wrangle/content/6-lesson.html">NEXT --></a>
 </p>
 
 
