@@ -64,6 +64,6 @@ The dataset now has a sample of 1068 locations all within the Southern local pol
 ----
 
 <p align="center">
-  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/1-setup.html"><-- BACK</a> |
-  <a href="https://griffithunilibrary.github.io/Advanced-data-wrangle/content/3-lesson.html">NEXT --></a>
+  <a href="https://griffithunilibrary.github.io/advanced-data-wrangle/content/1-setup.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/advanced-data-wrangle/content/3-lesson.html">NEXT --></a>
 </p>
