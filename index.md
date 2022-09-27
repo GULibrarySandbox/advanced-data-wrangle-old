@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-## Advanced Data Wrangling with OpenRefine
+## Advanced Data Wrangling with OpenRefine 2
 
 {% include figure.html img="MapAus.JPG" alt="intro image here" caption="Image of map created using <http://geojson.io/> and hosted by Github.
 
