@@ -35,7 +35,7 @@ search: true
 # add google analytics if desired (optional)
 # if blank, it will be ignored
 # use JEKYLL_ENV=production on build command
-google_analytics: UA-139142134-4
+google_analytics: G-NC3PPY2JZB
 
 # defaults (to simplify front matter)
 defaults:
